@@ -47,6 +47,7 @@
 		5739357220462BE7003CF148 /* M-BraceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "M-BraceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5739357620462BE7003CF148 /* M_BraceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_BraceUITests.swift; sourceTree = "<group>"; };
 		5739357820462BE7003CF148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5739358520464A07003CF148 /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 				5739356A20462BE7003CF148 /* M-BraceTests */,
 				5739357520462BE7003CF148 /* M-BraceUITests */,
 				5739355420462BE7003CF148 /* Products */,
+				5739358420464A07003CF148 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +125,14 @@
 				5739357820462BE7003CF148 /* Info.plist */,
 			);
 			path = "M-BraceUITests";
+			sourceTree = "<group>";
+		};
+		5739358420464A07003CF148 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5739358520464A07003CF148 /* Pods */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
