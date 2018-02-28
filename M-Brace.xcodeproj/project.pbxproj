@@ -14,6 +14,7 @@
 		5739356120462BE7003CF148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5739355F20462BE7003CF148 /* LaunchScreen.storyboard */; };
 		5739356C20462BE7003CF148 /* M_BraceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739356B20462BE7003CF148 /* M_BraceTests.swift */; };
 		5739357720462BE7003CF148 /* M_BraceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739357620462BE7003CF148 /* M_BraceUITests.swift */; };
+		573935FB20466854003CF148 /* SwiftSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573935F42046683F003CF148 /* SwiftSocket.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,41 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5739355220462BE7003CF148;
 			remoteInfo = "M-Brace";
+		};
+		573935F32046683F003CF148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 573935EC2046683F003CF148 /* SwiftSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 377DAA691DCDE40200009697;
+			remoteInfo = "SwiftSocket iOS";
+		};
+		573935F52046683F003CF148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 573935EC2046683F003CF148 /* SwiftSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 377DAA761DCDE45D00009697;
+			remoteInfo = "SwiftSocket macOS";
+		};
+		573935F72046683F003CF148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 573935EC2046683F003CF148 /* SwiftSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 37454ECA1E06158200800AE5;
+			remoteInfo = "SwiftSocket tvOS";
+		};
+		573935F92046683F003CF148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 573935EC2046683F003CF148 /* SwiftSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 375C482D1DDC4C56008C701D;
+			remoteInfo = "iOS Example";
+		};
+		573935FC20466865003CF148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 573935EC2046683F003CF148 /* SwiftSocket.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 377DAA681DCDE40200009697;
+			remoteInfo = "SwiftSocket iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -48,6 +84,7 @@
 		5739357620462BE7003CF148 /* M_BraceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_BraceUITests.swift; sourceTree = "<group>"; };
 		5739357820462BE7003CF148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5739358520464A07003CF148 /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
+		573935EC2046683F003CF148 /* SwiftSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftSocket.xcodeproj; path = "Pods/SwiftSocket-master/SwiftSocket.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				573935FB20466854003CF148 /* SwiftSocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,9 +168,21 @@
 		5739358420464A07003CF148 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				573935EC2046683F003CF148 /* SwiftSocket.xcodeproj */,
 				5739358520464A07003CF148 /* Pods */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		573935ED2046683F003CF148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				573935F42046683F003CF148 /* SwiftSocket.framework */,
+				573935F62046683F003CF148 /* SwiftSocket.framework */,
+				573935F82046683F003CF148 /* SwiftSocket.framework */,
+				573935FA2046683F003CF148 /* iOS Example.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +199,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				573935FD20466865003CF148 /* PBXTargetDependency */,
 			);
 			name = "M-Brace";
 			productName = "M-Brace";
@@ -228,6 +279,12 @@
 			mainGroup = 5739354A20462BE7003CF148;
 			productRefGroup = 5739355420462BE7003CF148 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 573935ED2046683F003CF148 /* Products */;
+					ProjectRef = 573935EC2046683F003CF148 /* SwiftSocket.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5739355220462BE7003CF148 /* M-Brace */,
@@ -236,6 +293,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		573935F42046683F003CF148 /* SwiftSocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftSocket.framework;
+			remoteRef = 573935F32046683F003CF148 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		573935F62046683F003CF148 /* SwiftSocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftSocket.framework;
+			remoteRef = 573935F52046683F003CF148 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		573935F82046683F003CF148 /* SwiftSocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftSocket.framework;
+			remoteRef = 573935F72046683F003CF148 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		573935FA2046683F003CF148 /* iOS Example.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "iOS Example.app";
+			remoteRef = 573935F92046683F003CF148 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5739355120462BE7003CF148 /* Resources */ = {
@@ -302,6 +390,11 @@
 			isa = PBXTargetDependency;
 			target = 5739355220462BE7003CF148 /* M-Brace */;
 			targetProxy = 5739357320462BE7003CF148 /* PBXContainerItemProxy */;
+		};
+		573935FD20466865003CF148 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftSocket iOS";
+			targetProxy = 573935FC20466865003CF148 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
