@@ -85,6 +85,8 @@
 		5739357820462BE7003CF148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5739358520464A07003CF148 /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
 		573935EC2046683F003CF148 /* SwiftSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftSocket.xcodeproj; path = "Pods/SwiftSocket-master/SwiftSocket.xcodeproj"; sourceTree = "<group>"; };
+		57A365D52049F3FC002A5790 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Assets; path = "Pods/Charts-master/Assets"; sourceTree = "<group>"; };
+		57A365D72049F40E002A5790 /* Charts-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Charts-master"; path = "Pods/Charts-master"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,8 @@
 		5739358420464A07003CF148 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				57A365D72049F40E002A5790 /* Charts-master */,
+				57A365D52049F3FC002A5790 /* Assets */,
 				573935EC2046683F003CF148 /* SwiftSocket.xcodeproj */,
 				5739358520464A07003CF148 /* Pods */,
 			);

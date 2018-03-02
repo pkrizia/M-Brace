@@ -11,28 +11,39 @@ import SwiftSocket
 
 class ViewController: UIViewController {
     @IBOutlet weak var dataOutput: UITextView!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     @IBAction func didTapButton(_ sender: UIButton) {
-        let client = TCPClient(address: "www.apple.com", port: 80)
-        switch client.connect(timeout: 1){
+        var response = ""
+        let client = TCPClient(address: "127.0.0.1", port: 12000)
+        switch client.connect(timeout: 10){
         case .success:
-            switch client.send(string: "GET / HTTP/1.0\n\n"){
+            switch client.send(string: "hello world\n"){
             case .success:
-                guard let data = client.read(1024*10) else {return}
+                // timeout is necessary
+                guard let data = client.read(1024*10, timeout: 1) else {
+                    print("here")
+                    return
+                }
                 if let response = String(bytes: data, encoding: .utf8){
                     dataOutput.text = response
+                    print(response)
                 }
             case .failure(_):
-                dataOutput.text = "Error: failed to obtain response."
+                response = "Error: failed to obtain response."
+                dataOutput.text = response
+                print(response)
             }
         case .failure(_):
-            dataOutput.text = "Error: failed to connect."
+            response = "Error: failed to connect."
+            dataOutput.text = response
+            print(response)
         }
+        client.close()
     }
     
     override func didReceiveMemoryWarning() {
