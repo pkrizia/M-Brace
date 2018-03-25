@@ -1,0 +1,362 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LineChartView"
+provides-nominal:
+- "6Charts13LineChartViewC"
+provides-member:
+- ["6Charts13LineChartViewC", ""]
+provides-dynamic-lookup:
+- "lineData"
+depends-top-level:
+- "AssignmentPrecedence"
+- "BarLineChartViewBase"
+- "CastingPrecedence"
+- "LineChartData"
+- "LineChartDataProvider"
+- !private "LineChartRenderer"
+- "LineChartView"
+depends-member:
+- !private ["6Charts16AnimatorDelegateP", "LineChartRenderer"]
+- !private ["6Charts16AnimatorDelegateP", "_animator"]
+- !private ["6Charts16AnimatorDelegateP", "_data"]
+- !private ["6Charts16AnimatorDelegateP", "_viewPortHandler"]
+- ["6Charts16AnimatorDelegateP", "getAxis"]
+- !private ["6Charts16AnimatorDelegateP", "init"]
+- !private ["6Charts16AnimatorDelegateP", "initialize"]
+- ["6Charts16AnimatorDelegateP", "lineData"]
+- !private ["6Charts16AnimatorDelegateP", "renderer"]
+- ["6Charts16AnimatorDelegateP", ""]
+- ["6Charts20BarLineChartViewBaseC", "LineChartData"]
+- !private ["6Charts20BarLineChartViewBaseC", "LineChartRenderer"]
+- !private ["6Charts20BarLineChartViewBaseC", "_animator"]
+- !private ["6Charts20BarLineChartViewBaseC", "_data"]
+- !private ["6Charts20BarLineChartViewBaseC", "_viewPortHandler"]
+- ["6Charts20BarLineChartViewBaseC", "getAxis"]
+- ["6Charts20BarLineChartViewBaseC", "init"]
+- ["6Charts20BarLineChartViewBaseC", "initialize"]
+- ["6Charts20BarLineChartViewBaseC", "lineData"]
+- !private ["6Charts20BarLineChartViewBaseC", "renderer"]
+- ["6Charts20BarLineChartViewBaseC", ""]
+- !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "LineChartRenderer"]
+- !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "_animator"]
+- !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "_data"]
+- !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "_viewPortHandler"]
+- ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "getAxis"]
+- !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "init"]
+- !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "initialize"]
+- ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "lineData"]
+- !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "renderer"]
+- ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", ""]
+- !private ["s7CVarArgP", "LineChartRenderer"]
+- !private ["s7CVarArgP", "_animator"]
+- !private ["s7CVarArgP", "_data"]
+- !private ["s7CVarArgP", "_viewPortHandler"]
+- ["s7CVarArgP", "getAxis"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initialize"]
+- ["s7CVarArgP", "lineData"]
+- !private ["s7CVarArgP", "renderer"]
+- ["s7CVarArgP", ""]
+- !private ["6Charts17ChartDataProviderP", "LineChartRenderer"]
+- !private ["6Charts17ChartDataProviderP", "_animator"]
+- !private ["6Charts17ChartDataProviderP", "_data"]
+- !private ["6Charts17ChartDataProviderP", "_viewPortHandler"]
+- ["6Charts17ChartDataProviderP", "getAxis"]
+- !private ["6Charts17ChartDataProviderP", "init"]
+- !private ["6Charts17ChartDataProviderP", "initialize"]
+- ["6Charts17ChartDataProviderP", "lineData"]
+- !private ["6Charts17ChartDataProviderP", "renderer"]
+- ["6Charts17ChartDataProviderP", ""]
+- ["6Charts13ChartViewBaseC", "LineChartData"]
+- !private ["6Charts13ChartViewBaseC", "LineChartRenderer"]
+- !private ["6Charts13ChartViewBaseC", "_animator"]
+- !private ["6Charts13ChartViewBaseC", "_data"]
+- !private ["6Charts13ChartViewBaseC", "_viewPortHandler"]
+- ["6Charts13ChartViewBaseC", "getAxis"]
+- ["6Charts13ChartViewBaseC", "init"]
+- ["6Charts13ChartViewBaseC", "initialize"]
+- ["6Charts13ChartViewBaseC", "lineData"]
+- !private ["6Charts13ChartViewBaseC", "renderer"]
+- !private ["s28CustomDebugStringConvertibleP", "LineChartRenderer"]
+- !private ["s28CustomDebugStringConvertibleP", "_animator"]
+- !private ["s28CustomDebugStringConvertibleP", "_data"]
+- !private ["s28CustomDebugStringConvertibleP", "_viewPortHandler"]
+- ["s28CustomDebugStringConvertibleP", "getAxis"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initialize"]
+- ["s28CustomDebugStringConvertibleP", "lineData"]
+- !private ["s28CustomDebugStringConvertibleP", "renderer"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "LineChartRenderer"]
+- !private ["s23CustomStringConvertibleP", "_animator"]
+- !private ["s23CustomStringConvertibleP", "_data"]
+- !private ["s23CustomStringConvertibleP", "_viewPortHandler"]
+- ["s23CustomStringConvertibleP", "getAxis"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "initialize"]
+- ["s23CustomStringConvertibleP", "lineData"]
+- !private ["s23CustomStringConvertibleP", "renderer"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9EquatableP", "LineChartRenderer"]
+- !private ["s9EquatableP", "_animator"]
+- !private ["s9EquatableP", "_data"]
+- !private ["s9EquatableP", "_viewPortHandler"]
+- ["s9EquatableP", "getAxis"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "initialize"]
+- ["s9EquatableP", "lineData"]
+- !private ["s9EquatableP", "renderer"]
+- ["s9EquatableP", ""]
+- !private ["s8HashableP", "LineChartRenderer"]
+- !private ["s8HashableP", "_animator"]
+- !private ["s8HashableP", "_data"]
+- !private ["s8HashableP", "_viewPortHandler"]
+- ["s8HashableP", "getAxis"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "initialize"]
+- ["s8HashableP", "lineData"]
+- !private ["s8HashableP", "renderer"]
+- ["s8HashableP", ""]
+- !private ["6Charts21LineChartDataProviderP", "LineChartRenderer"]
+- !private ["6Charts21LineChartDataProviderP", "_animator"]
+- !private ["6Charts21LineChartDataProviderP", "_data"]
+- !private ["6Charts21LineChartDataProviderP", "_viewPortHandler"]
+- ["6Charts21LineChartDataProviderP", "getAxis"]
+- ["6Charts21LineChartDataProviderP", "lineData"]
+- !private ["6Charts21LineChartDataProviderP", "renderer"]
+- ["6Charts21LineChartDataProviderP", ""]
+- !private ["6Charts17LineChartRendererC", "init"]
+- ["6Charts13LineChartViewC", "LineChartData"]
+- !private ["6Charts13LineChartViewC", "LineChartRenderer"]
+- !private ["6Charts13LineChartViewC", "_animator"]
+- !private ["6Charts13LineChartViewC", "_data"]
+- !private ["6Charts13LineChartViewC", "_viewPortHandler"]
+- ["6Charts13LineChartViewC", "deinit"]
+- ["6Charts13LineChartViewC", "getAxis"]
+- ["6Charts13LineChartViewC", "init"]
+- ["6Charts13LineChartViewC", "initialize"]
+- ["6Charts13LineChartViewC", "lineData"]
+- !private ["6Charts13LineChartViewC", "renderer"]
+- !private ["So15NSAccessibilityP", "LineChartRenderer"]
+- !private ["So15NSAccessibilityP", "_animator"]
+- !private ["So15NSAccessibilityP", "_data"]
+- !private ["So15NSAccessibilityP", "_viewPortHandler"]
+- ["So15NSAccessibilityP", "getAxis"]
+- !private ["So15NSAccessibilityP", "init"]
+- !private ["So15NSAccessibilityP", "initialize"]
+- ["So15NSAccessibilityP", "lineData"]
+- !private ["So15NSAccessibilityP", "renderer"]
+- ["So15NSAccessibilityP", ""]
+- !private ["So30NSAccessibilityElementProtocolP", "LineChartRenderer"]
+- !private ["So30NSAccessibilityElementProtocolP", "_animator"]
+- !private ["So30NSAccessibilityElementProtocolP", "_data"]
+- !private ["So30NSAccessibilityElementProtocolP", "_viewPortHandler"]
+- ["So30NSAccessibilityElementProtocolP", "getAxis"]
+- !private ["So30NSAccessibilityElementProtocolP", "init"]
+- !private ["So30NSAccessibilityElementProtocolP", "initialize"]
+- ["So30NSAccessibilityElementProtocolP", "lineData"]
+- !private ["So30NSAccessibilityElementProtocolP", "renderer"]
+- ["So30NSAccessibilityElementProtocolP", ""]
+- !private ["So29NSAnimatablePropertyContainerP", "LineChartRenderer"]
+- !private ["So29NSAnimatablePropertyContainerP", "_animator"]
+- !private ["So29NSAnimatablePropertyContainerP", "_data"]
+- !private ["So29NSAnimatablePropertyContainerP", "_viewPortHandler"]
+- ["So29NSAnimatablePropertyContainerP", "getAxis"]
+- !private ["So29NSAnimatablePropertyContainerP", "init"]
+- !private ["So29NSAnimatablePropertyContainerP", "initialize"]
+- ["So29NSAnimatablePropertyContainerP", "lineData"]
+- !private ["So29NSAnimatablePropertyContainerP", "renderer"]
+- ["So29NSAnimatablePropertyContainerP", ""]
+- !private ["So25NSAppearanceCustomizationP", "LineChartRenderer"]
+- !private ["So25NSAppearanceCustomizationP", "_animator"]
+- !private ["So25NSAppearanceCustomizationP", "_data"]
+- !private ["So25NSAppearanceCustomizationP", "_viewPortHandler"]
+- ["So25NSAppearanceCustomizationP", "getAxis"]
+- !private ["So25NSAppearanceCustomizationP", "init"]
+- !private ["So25NSAppearanceCustomizationP", "initialize"]
+- ["So25NSAppearanceCustomizationP", "lineData"]
+- !private ["So25NSAppearanceCustomizationP", "renderer"]
+- ["So25NSAppearanceCustomizationP", ""]
+- !private ["So8NSCodingP", "LineChartRenderer"]
+- !private ["So8NSCodingP", "_animator"]
+- !private ["So8NSCodingP", "_data"]
+- !private ["So8NSCodingP", "_viewPortHandler"]
+- ["So8NSCodingP", "getAxis"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "initialize"]
+- ["So8NSCodingP", "lineData"]
+- !private ["So8NSCodingP", "renderer"]
+- ["So8NSCodingP", ""]
+- !private ["So21NSDraggingDestinationP", "LineChartRenderer"]
+- !private ["So21NSDraggingDestinationP", "_animator"]
+- !private ["So21NSDraggingDestinationP", "_data"]
+- !private ["So21NSDraggingDestinationP", "_viewPortHandler"]
+- ["So21NSDraggingDestinationP", "getAxis"]
+- !private ["So21NSDraggingDestinationP", "init"]
+- !private ["So21NSDraggingDestinationP", "initialize"]
+- ["So21NSDraggingDestinationP", "lineData"]
+- !private ["So21NSDraggingDestinationP", "renderer"]
+- ["So21NSDraggingDestinationP", ""]
+- !private ["So27NSGestureRecognizerDelegateP", "LineChartRenderer"]
+- !private ["So27NSGestureRecognizerDelegateP", "_animator"]
+- !private ["So27NSGestureRecognizerDelegateP", "_data"]
+- !private ["So27NSGestureRecognizerDelegateP", "_viewPortHandler"]
+- ["So27NSGestureRecognizerDelegateP", "getAxis"]
+- !private ["So27NSGestureRecognizerDelegateP", "init"]
+- !private ["So27NSGestureRecognizerDelegateP", "initialize"]
+- ["So27NSGestureRecognizerDelegateP", "lineData"]
+- !private ["So27NSGestureRecognizerDelegateP", "renderer"]
+- ["So27NSGestureRecognizerDelegateP", ""]
+- ["So8NSObjectC", "LineChartData"]
+- !private ["So8NSObjectC", "LineChartRenderer"]
+- !private ["So8NSObjectC", "_animator"]
+- !private ["So8NSObjectC", "_data"]
+- !private ["So8NSObjectC", "_viewPortHandler"]
+- ["So8NSObjectC", "getAxis"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "initialize"]
+- ["So8NSObjectC", "lineData"]
+- !private ["So8NSObjectC", "renderer"]
+- !private ["So16NSObjectProtocolP", "LineChartRenderer"]
+- !private ["So16NSObjectProtocolP", "_animator"]
+- !private ["So16NSObjectProtocolP", "_data"]
+- !private ["So16NSObjectProtocolP", "_viewPortHandler"]
+- ["So16NSObjectProtocolP", "getAxis"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "initialize"]
+- ["So16NSObjectProtocolP", "lineData"]
+- !private ["So16NSObjectProtocolP", "renderer"]
+- ["So16NSObjectProtocolP", ""]
+- ["So11NSResponderC", "LineChartData"]
+- !private ["So11NSResponderC", "LineChartRenderer"]
+- !private ["So11NSResponderC", "_animator"]
+- !private ["So11NSResponderC", "_data"]
+- !private ["So11NSResponderC", "_viewPortHandler"]
+- ["So11NSResponderC", "getAxis"]
+- ["So11NSResponderC", "init"]
+- ["So11NSResponderC", "initialize"]
+- ["So11NSResponderC", "lineData"]
+- !private ["So11NSResponderC", "renderer"]
+- !private ["So18NSTouchBarProviderP", "LineChartRenderer"]
+- !private ["So18NSTouchBarProviderP", "_animator"]
+- !private ["So18NSTouchBarProviderP", "_data"]
+- !private ["So18NSTouchBarProviderP", "_viewPortHandler"]
+- ["So18NSTouchBarProviderP", "getAxis"]
+- !private ["So18NSTouchBarProviderP", "init"]
+- !private ["So18NSTouchBarProviderP", "initialize"]
+- ["So18NSTouchBarProviderP", "lineData"]
+- !private ["So18NSTouchBarProviderP", "renderer"]
+- ["So18NSTouchBarProviderP", ""]
+- ["6Charts8NSUIViewC", "LineChartData"]
+- !private ["6Charts8NSUIViewC", "LineChartRenderer"]
+- !private ["6Charts8NSUIViewC", "_animator"]
+- !private ["6Charts8NSUIViewC", "_data"]
+- !private ["6Charts8NSUIViewC", "_viewPortHandler"]
+- ["6Charts8NSUIViewC", "getAxis"]
+- ["6Charts8NSUIViewC", "init"]
+- ["6Charts8NSUIViewC", "initialize"]
+- ["6Charts8NSUIViewC", "lineData"]
+- !private ["6Charts8NSUIViewC", "renderer"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "LineChartRenderer"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "_animator"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "_data"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "_viewPortHandler"]
+- ["So33NSUserInterfaceItemIdentificationP", "getAxis"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "init"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "initialize"]
+- ["So33NSUserInterfaceItemIdentificationP", "lineData"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "renderer"]
+- ["So33NSUserInterfaceItemIdentificationP", ""]
+- ["So6NSViewC", "LineChartData"]
+- !private ["So6NSViewC", "LineChartRenderer"]
+- !private ["So6NSViewC", "_animator"]
+- !private ["So6NSViewC", "_data"]
+- !private ["So6NSViewC", "_viewPortHandler"]
+- ["So6NSViewC", "getAxis"]
+- ["So6NSViewC", "init"]
+- ["So6NSViewC", "initialize"]
+- ["So6NSViewC", "lineData"]
+- !private ["So6NSViewC", "renderer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "LineChartRenderer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "_animator"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "_data"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "_viewPortHandler"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "getAxis"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "initialize"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "lineData"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "renderer"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LineChartRenderer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_animator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_viewPortHandler"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getAxis"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "initialize"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "lineData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "renderer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+depends-nominal:
+- "6Charts16AnimatorDelegateP"
+- "6Charts20BarLineChartViewBaseC"
+- "6Charts43BarLineScatterCandleBubbleChartDataProviderP"
+- "s7CVarArgP"
+- "6Charts17ChartDataProviderP"
+- "6Charts13ChartViewBaseC"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- "6Charts21LineChartDataProviderP"
+- !private "6Charts17LineChartRendererC"
+- "6Charts13LineChartViewC"
+- "So15NSAccessibilityP"
+- "So30NSAccessibilityElementProtocolP"
+- "So29NSAnimatablePropertyContainerP"
+- "So25NSAppearanceCustomizationP"
+- "So8NSCodingP"
+- "So21NSDraggingDestinationP"
+- "So27NSGestureRecognizerDelegateP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So11NSResponderC"
+- "So18NSTouchBarProviderP"
+- "6Charts8NSUIViewC"
+- "So33NSUserInterfaceItemIdentificationP"
+- "So6NSViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuickLook.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/Pods/Charts-master/Source/Supporting Files/Charts.h"
+- "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/DerivedData/M-Brace/Build/Intermediates.noindex/Charts.build/Debug/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "3c6e24b6a9551e8180aeb7b4aa7ae2ad"

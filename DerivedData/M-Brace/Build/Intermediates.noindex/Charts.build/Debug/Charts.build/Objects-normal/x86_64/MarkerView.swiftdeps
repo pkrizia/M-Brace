@@ -1,0 +1,696 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MarkerView"
+provides-nominal:
+- "6Charts10MarkerViewC"
+provides-member:
+- ["6Charts10MarkerViewC", ""]
+provides-dynamic-lookup:
+- "chartView"
+- "draw"
+- "offset"
+- "offsetForDrawing"
+- "refreshContent"
+- "viewFromXib"
+depends-top-level:
+- !private "+"
+- !private "-"
+- !private "<"
+- !private ">"
+- "AssignmentPrecedence"
+- !private "AutoreleasingUnsafeMutablePointer"
+- "Bundle"
+- "CGContext"
+- "CGPoint"
+- "CastingPrecedence"
+- "ChartDataEntry"
+- "ChartViewBase"
+- "Highlight"
+- "IMarker"
+- "MarkerView"
+- !private "NSArray"
+- !private "NSNib"
+- !private "NSUIGraphicsPopContext"
+- !private "NSUIGraphicsPushContext"
+- "NSUIView"
+- !private "String"
+depends-member:
+- !private ["6Charts16AnimatorDelegateP", "bounds"]
+- !private ["s33AutoreleasingUnsafeMutablePointerV", "init"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So6BundleC", "loadNibNamed"]
+- !private ["So6BundleC", "main"]
+- !private ["So7CALayerC", "render"]
+- !private ["So13CAMediaTimingP", "render"]
+- !private ["So9CGContextC", "restoreGState"]
+- !private ["So9CGContextC", "saveGState"]
+- !private ["So9CGContextC", "translateBy"]
+- ["SC7CGPointV", "init"]
+- !private ["SC7CGPointV", "x"]
+- !private ["SC7CGPointV", "y"]
+- !private ["SC6CGRectV", "size"]
+- !private ["SC6CGSizeV", "height"]
+- !private ["SC6CGSizeV", "width"]
+- !private ["s7CVarArgP", "AutoreleasingUnsafeMutablePointer"]
+- ["s7CVarArgP", "CGPoint"]
+- !private ["s7CVarArgP", "NSArray"]
+- !private ["s7CVarArgP", "NSNib"]
+- !private ["s7CVarArgP", "NSUIGraphicsPopContext"]
+- !private ["s7CVarArgP", "NSUIGraphicsPushContext"]
+- !private ["s7CVarArgP", "Name"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "chartView"]
+- ["s7CVarArgP", "draw"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "loadNibNamed"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "nsuiLayer"]
+- ["s7CVarArgP", "offset"]
+- ["s7CVarArgP", "offsetForDrawing"]
+- ["s7CVarArgP", "refreshContent"]
+- !private ["s7CVarArgP", "render"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", ""]
+- !private ["6Charts17ChartDataProviderP", "bounds"]
+- !private ["6Charts13ChartViewBaseC", "bounds"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AutoreleasingUnsafeMutablePointer"]
+- ["s28CustomDebugStringConvertibleP", "CGPoint"]
+- !private ["s28CustomDebugStringConvertibleP", "NSArray"]
+- !private ["s28CustomDebugStringConvertibleP", "NSNib"]
+- !private ["s28CustomDebugStringConvertibleP", "NSUIGraphicsPopContext"]
+- !private ["s28CustomDebugStringConvertibleP", "NSUIGraphicsPushContext"]
+- !private ["s28CustomDebugStringConvertibleP", "Name"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "chartView"]
+- ["s28CustomDebugStringConvertibleP", "draw"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "loadNibNamed"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "nsuiLayer"]
+- ["s28CustomDebugStringConvertibleP", "offset"]
+- ["s28CustomDebugStringConvertibleP", "offsetForDrawing"]
+- ["s28CustomDebugStringConvertibleP", "refreshContent"]
+- !private ["s28CustomDebugStringConvertibleP", "render"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "size"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "x"]
+- !private ["s29CustomPlaygroundQuickLookableP", "y"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "height"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s17CustomReflectableP", "x"]
+- !private ["s17CustomReflectableP", "y"]
+- !private ["s23CustomStringConvertibleP", "AutoreleasingUnsafeMutablePointer"]
+- ["s23CustomStringConvertibleP", "CGPoint"]
+- !private ["s23CustomStringConvertibleP", "NSArray"]
+- !private ["s23CustomStringConvertibleP", "NSNib"]
+- !private ["s23CustomStringConvertibleP", "NSUIGraphicsPopContext"]
+- !private ["s23CustomStringConvertibleP", "NSUIGraphicsPushContext"]
+- !private ["s23CustomStringConvertibleP", "Name"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "chartView"]
+- ["s23CustomStringConvertibleP", "draw"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "loadNibNamed"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "nsuiLayer"]
+- ["s23CustomStringConvertibleP", "offset"]
+- ["s23CustomStringConvertibleP", "offsetForDrawing"]
+- ["s23CustomStringConvertibleP", "refreshContent"]
+- !private ["s23CustomStringConvertibleP", "render"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "height"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "size"]
+- !private ["s9DecodableP", "width"]
+- !private ["s9DecodableP", "x"]
+- !private ["s9DecodableP", "y"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "height"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "size"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EncodableP", "x"]
+- !private ["s9EncodableP", "y"]
+- !private ["s9EquatableP", "AutoreleasingUnsafeMutablePointer"]
+- ["s9EquatableP", "CGPoint"]
+- !private ["s9EquatableP", "NSArray"]
+- !private ["s9EquatableP", "NSNib"]
+- !private ["s9EquatableP", "NSUIGraphicsPopContext"]
+- !private ["s9EquatableP", "NSUIGraphicsPushContext"]
+- !private ["s9EquatableP", "Name"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "bounds"]
+- !private ["s9EquatableP", "chartView"]
+- ["s9EquatableP", "draw"]
+- !private ["s9EquatableP", "height"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "loadNibNamed"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "nsuiLayer"]
+- ["s9EquatableP", "offset"]
+- ["s9EquatableP", "offsetForDrawing"]
+- ["s9EquatableP", "refreshContent"]
+- !private ["s9EquatableP", "render"]
+- !private ["s9EquatableP", "restoreGState"]
+- !private ["s9EquatableP", "saveGState"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "translateBy"]
+- !private ["s9EquatableP", "width"]
+- !private ["s9EquatableP", "x"]
+- !private ["s9EquatableP", "y"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "AutoreleasingUnsafeMutablePointer"]
+- ["s8HashableP", "CGPoint"]
+- !private ["s8HashableP", "NSArray"]
+- !private ["s8HashableP", "NSNib"]
+- !private ["s8HashableP", "NSUIGraphicsPopContext"]
+- !private ["s8HashableP", "NSUIGraphicsPushContext"]
+- !private ["s8HashableP", "Name"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "bounds"]
+- !private ["s8HashableP", "chartView"]
+- ["s8HashableP", "draw"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "loadNibNamed"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "nsuiLayer"]
+- ["s8HashableP", "offset"]
+- ["s8HashableP", "offsetForDrawing"]
+- ["s8HashableP", "refreshContent"]
+- !private ["s8HashableP", "render"]
+- !private ["s8HashableP", "restoreGState"]
+- !private ["s8HashableP", "saveGState"]
+- !private ["s8HashableP", "subscript"]
+- !private ["s8HashableP", "translateBy"]
+- ["s8HashableP", ""]
+- !private ["6Charts7IMarkerP", "AutoreleasingUnsafeMutablePointer"]
+- ["6Charts7IMarkerP", "CGPoint"]
+- !private ["6Charts7IMarkerP", "NSArray"]
+- !private ["6Charts7IMarkerP", "NSNib"]
+- !private ["6Charts7IMarkerP", "NSUIGraphicsPopContext"]
+- !private ["6Charts7IMarkerP", "NSUIGraphicsPushContext"]
+- !private ["6Charts7IMarkerP", "String"]
+- !private ["6Charts7IMarkerP", "bounds"]
+- !private ["6Charts7IMarkerP", "chartView"]
+- ["6Charts7IMarkerP", "draw"]
+- !private ["6Charts7IMarkerP", "nsuiLayer"]
+- ["6Charts7IMarkerP", "offset"]
+- ["6Charts7IMarkerP", "offsetForDrawing"]
+- ["6Charts7IMarkerP", "refreshContent"]
+- ["6Charts7IMarkerP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["6Charts10MarkerViewC", "AutoreleasingUnsafeMutablePointer"]
+- ["6Charts10MarkerViewC", "Bundle"]
+- ["6Charts10MarkerViewC", "CGContext"]
+- ["6Charts10MarkerViewC", "CGPoint"]
+- ["6Charts10MarkerViewC", "ChartDataEntry"]
+- ["6Charts10MarkerViewC", "ChartViewBase"]
+- ["6Charts10MarkerViewC", "Highlight"]
+- ["6Charts10MarkerViewC", "MarkerView"]
+- !private ["6Charts10MarkerViewC", "NSArray"]
+- !private ["6Charts10MarkerViewC", "NSNib"]
+- !private ["6Charts10MarkerViewC", "NSUIGraphicsPopContext"]
+- !private ["6Charts10MarkerViewC", "NSUIGraphicsPushContext"]
+- !private ["6Charts10MarkerViewC", "String"]
+- !private ["6Charts10MarkerViewC", "bounds"]
+- ["6Charts10MarkerViewC", "chartView"]
+- ["6Charts10MarkerViewC", "deinit"]
+- ["6Charts10MarkerViewC", "draw"]
+- ["6Charts10MarkerViewC", "init"]
+- !private ["6Charts10MarkerViewC", "nsuiLayer"]
+- ["6Charts10MarkerViewC", "offset"]
+- ["6Charts10MarkerViewC", "offsetForDrawing"]
+- ["6Charts10MarkerViewC", "refreshContent"]
+- ["6Charts10MarkerViewC", "viewFromXib"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So15NSAccessibilityP", "AutoreleasingUnsafeMutablePointer"]
+- ["So15NSAccessibilityP", "CGPoint"]
+- !private ["So15NSAccessibilityP", "NSArray"]
+- !private ["So15NSAccessibilityP", "NSNib"]
+- !private ["So15NSAccessibilityP", "NSUIGraphicsPopContext"]
+- !private ["So15NSAccessibilityP", "NSUIGraphicsPushContext"]
+- !private ["So15NSAccessibilityP", "String"]
+- !private ["So15NSAccessibilityP", "bounds"]
+- !private ["So15NSAccessibilityP", "chartView"]
+- ["So15NSAccessibilityP", "draw"]
+- !private ["So15NSAccessibilityP", "init"]
+- !private ["So15NSAccessibilityP", "nsuiLayer"]
+- ["So15NSAccessibilityP", "offset"]
+- ["So15NSAccessibilityP", "offsetForDrawing"]
+- ["So15NSAccessibilityP", "refreshContent"]
+- ["So15NSAccessibilityP", ""]
+- !private ["So30NSAccessibilityElementProtocolP", "AutoreleasingUnsafeMutablePointer"]
+- ["So30NSAccessibilityElementProtocolP", "CGPoint"]
+- !private ["So30NSAccessibilityElementProtocolP", "NSArray"]
+- !private ["So30NSAccessibilityElementProtocolP", "NSNib"]
+- !private ["So30NSAccessibilityElementProtocolP", "NSUIGraphicsPopContext"]
+- !private ["So30NSAccessibilityElementProtocolP", "NSUIGraphicsPushContext"]
+- !private ["So30NSAccessibilityElementProtocolP", "String"]
+- !private ["So30NSAccessibilityElementProtocolP", "bounds"]
+- !private ["So30NSAccessibilityElementProtocolP", "chartView"]
+- ["So30NSAccessibilityElementProtocolP", "draw"]
+- !private ["So30NSAccessibilityElementProtocolP", "init"]
+- !private ["So30NSAccessibilityElementProtocolP", "nsuiLayer"]
+- ["So30NSAccessibilityElementProtocolP", "offset"]
+- ["So30NSAccessibilityElementProtocolP", "offsetForDrawing"]
+- ["So30NSAccessibilityElementProtocolP", "refreshContent"]
+- ["So30NSAccessibilityElementProtocolP", ""]
+- !private ["So29NSAnimatablePropertyContainerP", "AutoreleasingUnsafeMutablePointer"]
+- ["So29NSAnimatablePropertyContainerP", "CGPoint"]
+- !private ["So29NSAnimatablePropertyContainerP", "NSArray"]
+- !private ["So29NSAnimatablePropertyContainerP", "NSNib"]
+- !private ["So29NSAnimatablePropertyContainerP", "NSUIGraphicsPopContext"]
+- !private ["So29NSAnimatablePropertyContainerP", "NSUIGraphicsPushContext"]
+- !private ["So29NSAnimatablePropertyContainerP", "String"]
+- !private ["So29NSAnimatablePropertyContainerP", "bounds"]
+- !private ["So29NSAnimatablePropertyContainerP", "chartView"]
+- ["So29NSAnimatablePropertyContainerP", "draw"]
+- !private ["So29NSAnimatablePropertyContainerP", "init"]
+- !private ["So29NSAnimatablePropertyContainerP", "nsuiLayer"]
+- ["So29NSAnimatablePropertyContainerP", "offset"]
+- ["So29NSAnimatablePropertyContainerP", "offsetForDrawing"]
+- ["So29NSAnimatablePropertyContainerP", "refreshContent"]
+- ["So29NSAnimatablePropertyContainerP", ""]
+- !private ["So25NSAppearanceCustomizationP", "AutoreleasingUnsafeMutablePointer"]
+- ["So25NSAppearanceCustomizationP", "CGPoint"]
+- !private ["So25NSAppearanceCustomizationP", "NSArray"]
+- !private ["So25NSAppearanceCustomizationP", "NSNib"]
+- !private ["So25NSAppearanceCustomizationP", "NSUIGraphicsPopContext"]
+- !private ["So25NSAppearanceCustomizationP", "NSUIGraphicsPushContext"]
+- !private ["So25NSAppearanceCustomizationP", "String"]
+- !private ["So25NSAppearanceCustomizationP", "bounds"]
+- !private ["So25NSAppearanceCustomizationP", "chartView"]
+- ["So25NSAppearanceCustomizationP", "draw"]
+- !private ["So25NSAppearanceCustomizationP", "init"]
+- !private ["So25NSAppearanceCustomizationP", "nsuiLayer"]
+- ["So25NSAppearanceCustomizationP", "offset"]
+- ["So25NSAppearanceCustomizationP", "offsetForDrawing"]
+- ["So25NSAppearanceCustomizationP", "refreshContent"]
+- ["So25NSAppearanceCustomizationP", ""]
+- !private ["So7NSArrayC", "init"]
+- !private ["So7NSArrayC", "subscript"]
+- !private ["So8NSCodingP", "AutoreleasingUnsafeMutablePointer"]
+- ["So8NSCodingP", "CGPoint"]
+- !private ["So8NSCodingP", "NSArray"]
+- !private ["So8NSCodingP", "NSNib"]
+- !private ["So8NSCodingP", "NSUIGraphicsPopContext"]
+- !private ["So8NSCodingP", "NSUIGraphicsPushContext"]
+- !private ["So8NSCodingP", "Name"]
+- !private ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "bounds"]
+- !private ["So8NSCodingP", "chartView"]
+- ["So8NSCodingP", "draw"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "nsuiLayer"]
+- ["So8NSCodingP", "offset"]
+- ["So8NSCodingP", "offsetForDrawing"]
+- ["So8NSCodingP", "refreshContent"]
+- !private ["So8NSCodingP", "render"]
+- !private ["So8NSCodingP", "subscript"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "subscript"]
+- !private ["So21NSDraggingDestinationP", "AutoreleasingUnsafeMutablePointer"]
+- ["So21NSDraggingDestinationP", "CGPoint"]
+- !private ["So21NSDraggingDestinationP", "NSArray"]
+- !private ["So21NSDraggingDestinationP", "NSNib"]
+- !private ["So21NSDraggingDestinationP", "NSUIGraphicsPopContext"]
+- !private ["So21NSDraggingDestinationP", "NSUIGraphicsPushContext"]
+- !private ["So21NSDraggingDestinationP", "String"]
+- !private ["So21NSDraggingDestinationP", "bounds"]
+- !private ["So21NSDraggingDestinationP", "chartView"]
+- ["So21NSDraggingDestinationP", "draw"]
+- !private ["So21NSDraggingDestinationP", "init"]
+- !private ["So21NSDraggingDestinationP", "nsuiLayer"]
+- ["So21NSDraggingDestinationP", "offset"]
+- ["So21NSDraggingDestinationP", "offsetForDrawing"]
+- ["So21NSDraggingDestinationP", "refreshContent"]
+- ["So21NSDraggingDestinationP", ""]
+- !private ["So17NSFastEnumerationP", "init"]
+- !private ["So17NSFastEnumerationP", "subscript"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "subscript"]
+- !private ["So5NSNibC", "Name"]
+- !private ["So8NSObjectC", "AutoreleasingUnsafeMutablePointer"]
+- ["So8NSObjectC", "Bundle"]
+- ["So8NSObjectC", "CGContext"]
+- ["So8NSObjectC", "CGPoint"]
+- ["So8NSObjectC", "ChartDataEntry"]
+- ["So8NSObjectC", "ChartViewBase"]
+- ["So8NSObjectC", "Highlight"]
+- ["So8NSObjectC", "MarkerView"]
+- !private ["So8NSObjectC", "NSArray"]
+- !private ["So8NSObjectC", "NSNib"]
+- !private ["So8NSObjectC", "NSUIGraphicsPopContext"]
+- !private ["So8NSObjectC", "NSUIGraphicsPushContext"]
+- !private ["So8NSObjectC", "Name"]
+- !private ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "bounds"]
+- ["So8NSObjectC", "chartView"]
+- ["So8NSObjectC", "draw"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "loadNibNamed"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "nsuiLayer"]
+- ["So8NSObjectC", "offset"]
+- ["So8NSObjectC", "offsetForDrawing"]
+- ["So8NSObjectC", "refreshContent"]
+- !private ["So8NSObjectC", "render"]
+- !private ["So8NSObjectC", "subscript"]
+- ["So8NSObjectC", "viewFromXib"]
+- !private ["So16NSObjectProtocolP", "AutoreleasingUnsafeMutablePointer"]
+- ["So16NSObjectProtocolP", "CGPoint"]
+- !private ["So16NSObjectProtocolP", "NSArray"]
+- !private ["So16NSObjectProtocolP", "NSNib"]
+- !private ["So16NSObjectProtocolP", "NSUIGraphicsPopContext"]
+- !private ["So16NSObjectProtocolP", "NSUIGraphicsPushContext"]
+- !private ["So16NSObjectProtocolP", "Name"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "bounds"]
+- !private ["So16NSObjectProtocolP", "chartView"]
+- ["So16NSObjectProtocolP", "draw"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "loadNibNamed"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "nsuiLayer"]
+- ["So16NSObjectProtocolP", "offset"]
+- ["So16NSObjectProtocolP", "offsetForDrawing"]
+- ["So16NSObjectProtocolP", "refreshContent"]
+- !private ["So16NSObjectProtocolP", "render"]
+- !private ["So16NSObjectProtocolP", "subscript"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So11NSResponderC", "AutoreleasingUnsafeMutablePointer"]
+- ["So11NSResponderC", "Bundle"]
+- ["So11NSResponderC", "CGContext"]
+- ["So11NSResponderC", "CGPoint"]
+- ["So11NSResponderC", "ChartDataEntry"]
+- ["So11NSResponderC", "ChartViewBase"]
+- ["So11NSResponderC", "Highlight"]
+- ["So11NSResponderC", "MarkerView"]
+- !private ["So11NSResponderC", "NSArray"]
+- !private ["So11NSResponderC", "NSNib"]
+- !private ["So11NSResponderC", "NSUIGraphicsPopContext"]
+- !private ["So11NSResponderC", "NSUIGraphicsPushContext"]
+- !private ["So11NSResponderC", "String"]
+- !private ["So11NSResponderC", "bounds"]
+- ["So11NSResponderC", "chartView"]
+- ["So11NSResponderC", "draw"]
+- ["So11NSResponderC", "init"]
+- !private ["So11NSResponderC", "nsuiLayer"]
+- ["So11NSResponderC", "offset"]
+- ["So11NSResponderC", "offsetForDrawing"]
+- ["So11NSResponderC", "refreshContent"]
+- ["So11NSResponderC", "viewFromXib"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "render"]
+- !private ["So14NSSecureCodingP", "subscript"]
+- !private ["So18NSTouchBarProviderP", "AutoreleasingUnsafeMutablePointer"]
+- ["So18NSTouchBarProviderP", "CGPoint"]
+- !private ["So18NSTouchBarProviderP", "NSArray"]
+- !private ["So18NSTouchBarProviderP", "NSNib"]
+- !private ["So18NSTouchBarProviderP", "NSUIGraphicsPopContext"]
+- !private ["So18NSTouchBarProviderP", "NSUIGraphicsPushContext"]
+- !private ["So18NSTouchBarProviderP", "String"]
+- !private ["So18NSTouchBarProviderP", "bounds"]
+- !private ["So18NSTouchBarProviderP", "chartView"]
+- ["So18NSTouchBarProviderP", "draw"]
+- !private ["So18NSTouchBarProviderP", "init"]
+- !private ["So18NSTouchBarProviderP", "nsuiLayer"]
+- ["So18NSTouchBarProviderP", "offset"]
+- ["So18NSTouchBarProviderP", "offsetForDrawing"]
+- ["So18NSTouchBarProviderP", "refreshContent"]
+- ["So18NSTouchBarProviderP", ""]
+- !private ["6Charts8NSUIViewC", "AutoreleasingUnsafeMutablePointer"]
+- ["6Charts8NSUIViewC", "Bundle"]
+- ["6Charts8NSUIViewC", "CGContext"]
+- ["6Charts8NSUIViewC", "CGPoint"]
+- ["6Charts8NSUIViewC", "ChartDataEntry"]
+- ["6Charts8NSUIViewC", "ChartViewBase"]
+- ["6Charts8NSUIViewC", "Highlight"]
+- ["6Charts8NSUIViewC", "MarkerView"]
+- !private ["6Charts8NSUIViewC", "NSArray"]
+- !private ["6Charts8NSUIViewC", "NSNib"]
+- !private ["6Charts8NSUIViewC", "NSUIGraphicsPopContext"]
+- !private ["6Charts8NSUIViewC", "NSUIGraphicsPushContext"]
+- !private ["6Charts8NSUIViewC", "String"]
+- !private ["6Charts8NSUIViewC", "bounds"]
+- ["6Charts8NSUIViewC", "chartView"]
+- ["6Charts8NSUIViewC", "draw"]
+- ["6Charts8NSUIViewC", "init"]
+- !private ["6Charts8NSUIViewC", "nsuiLayer"]
+- ["6Charts8NSUIViewC", "offset"]
+- ["6Charts8NSUIViewC", "offsetForDrawing"]
+- ["6Charts8NSUIViewC", "refreshContent"]
+- ["6Charts8NSUIViewC", "viewFromXib"]
+- ["6Charts8NSUIViewC", ""]
+- !private ["So33NSUserInterfaceItemIdentificationP", "AutoreleasingUnsafeMutablePointer"]
+- ["So33NSUserInterfaceItemIdentificationP", "CGPoint"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "NSArray"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "NSNib"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "NSUIGraphicsPopContext"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "NSUIGraphicsPushContext"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "String"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "bounds"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "chartView"]
+- ["So33NSUserInterfaceItemIdentificationP", "draw"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "init"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "nsuiLayer"]
+- ["So33NSUserInterfaceItemIdentificationP", "offset"]
+- ["So33NSUserInterfaceItemIdentificationP", "offsetForDrawing"]
+- ["So33NSUserInterfaceItemIdentificationP", "refreshContent"]
+- ["So33NSUserInterfaceItemIdentificationP", ""]
+- !private ["So6NSViewC", "AutoreleasingUnsafeMutablePointer"]
+- ["So6NSViewC", "Bundle"]
+- ["So6NSViewC", "CGContext"]
+- ["So6NSViewC", "CGPoint"]
+- ["So6NSViewC", "ChartDataEntry"]
+- ["So6NSViewC", "ChartViewBase"]
+- ["So6NSViewC", "Highlight"]
+- ["So6NSViewC", "MarkerView"]
+- !private ["So6NSViewC", "NSArray"]
+- !private ["So6NSViewC", "NSNib"]
+- !private ["So6NSViewC", "NSUIGraphicsPopContext"]
+- !private ["So6NSViewC", "NSUIGraphicsPushContext"]
+- !private ["So6NSViewC", "String"]
+- !private ["So6NSViewC", "bounds"]
+- ["So6NSViewC", "chartView"]
+- ["So6NSViewC", "draw"]
+- ["So6NSViewC", "init"]
+- !private ["So6NSViewC", "nsuiLayer"]
+- ["So6NSViewC", "offset"]
+- ["So6NSViewC", "offsetForDrawing"]
+- ["So6NSViewC", "refreshContent"]
+- ["So6NSViewC", "viewFromXib"]
+- !private ["So5NSNibC4NameV", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["14CoreFoundation9_CFObjectP", "restoreGState"]
+- !private ["14CoreFoundation9_CFObjectP", "saveGState"]
+- !private ["14CoreFoundation9_CFObjectP", "translateBy"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "AutoreleasingUnsafeMutablePointer"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "CGPoint"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "NSArray"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "NSNib"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "NSUIGraphicsPopContext"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "NSUIGraphicsPushContext"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "String"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bounds"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "chartView"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "draw"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "nsuiLayer"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "offset"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "offsetForDrawing"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "refreshContent"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AutoreleasingUnsafeMutablePointer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSArray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSUIGraphicsPopContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSUIGraphicsPushContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "chartView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "draw"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadNibNamed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nsuiLayer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "offset"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "offsetForDrawing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "refreshContent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "render"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s21_ObjectiveCBridgeableP", "x"]
+- !private ["s21_ObjectiveCBridgeableP", "y"]
+- !private ["s8_PointerP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "6Charts16AnimatorDelegateP"
+- !private "s33AutoreleasingUnsafeMutablePointerV"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So6BundleC"
+- !private "So7CALayerC"
+- !private "So13CAMediaTimingP"
+- !private "So9CGContextC"
+- "SC7CGPointV"
+- !private "SC6CGRectV"
+- !private "SC6CGSizeV"
+- "s7CVarArgP"
+- !private "6Charts17ChartDataProviderP"
+- !private "6Charts13ChartViewBaseC"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "6Charts7IMarkerP"
+- !private "s25LosslessStringConvertibleP"
+- "6Charts10MarkerViewC"
+- !private "s10MirrorPathP"
+- "So15NSAccessibilityP"
+- "So30NSAccessibilityElementProtocolP"
+- "So29NSAnimatablePropertyContainerP"
+- "So25NSAppearanceCustomizationP"
+- !private "So7NSArrayC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So21NSDraggingDestinationP"
+- !private "So17NSFastEnumerationP"
+- !private "So16NSMutableCopyingP"
+- !private "So5NSNibC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So11NSResponderC"
+- !private "So14NSSecureCodingP"
+- "So18NSTouchBarProviderP"
+- "6Charts8NSUIViewC"
+- "So33NSUserInterfaceItemIdentificationP"
+- "So6NSViewC"
+- !private "So5NSNibC4NameV"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s23_BidirectionalIndexableP"
+- !private "14CoreFoundation9_CFObjectP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuickLook.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/Pods/Charts-master/Source/Supporting Files/Charts.h"
+- "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/DerivedData/M-Brace/Build/Intermediates.noindex/Charts.build/Debug/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "7233e73a9bd99350f6429199ddbae5ff"

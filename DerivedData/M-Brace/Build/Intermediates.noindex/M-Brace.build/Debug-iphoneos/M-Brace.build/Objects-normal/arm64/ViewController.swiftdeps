@@ -1,0 +1,529 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "7M_Brace14ViewControllerC"
+provides-member:
+- ["7M_Brace14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "graphBtn"
+- "txtBox"
+- "txtBox2"
+- "viewDidLoad"
+depends-top-level:
+- !private "..<"
+- "AssignmentPrecedence"
+- !private "ChartDataEntry"
+- "Double"
+- !private "LineChartData"
+- !private "LineChartDataSet"
+- "LineChartView"
+- "UITextField"
+- "UIViewController"
+- "ViewController"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "ChartDataEntry"]
+- !private ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "LineChartData"]
+- !private ["s7CVarArgP", "LineChartDataSet"]
+- ["s7CVarArgP", "LineChartView"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lnChart"]
+- !private ["s7CVarArgP", "numbers"]
+- !private ["s7CVarArgP", "numbers2"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "txtBox"]
+- !private ["s7CVarArgP", "txtBox2"]
+- !private ["s7CVarArgP", "updateGraph"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "ChartDataEntry"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "LineChartData"]
+- !private ["s28CustomDebugStringConvertibleP", "LineChartDataSet"]
+- ["s28CustomDebugStringConvertibleP", "LineChartView"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lnChart"]
+- !private ["s28CustomDebugStringConvertibleP", "numbers"]
+- !private ["s28CustomDebugStringConvertibleP", "numbers2"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "txtBox"]
+- !private ["s28CustomDebugStringConvertibleP", "txtBox2"]
+- !private ["s28CustomDebugStringConvertibleP", "updateGraph"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "ChartDataEntry"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "LineChartData"]
+- !private ["s23CustomStringConvertibleP", "LineChartDataSet"]
+- ["s23CustomStringConvertibleP", "LineChartView"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lnChart"]
+- !private ["s23CustomStringConvertibleP", "numbers"]
+- !private ["s23CustomStringConvertibleP", "numbers2"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "txtBox"]
+- !private ["s23CustomStringConvertibleP", "txtBox2"]
+- !private ["s23CustomStringConvertibleP", "updateGraph"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "init"]
+- !private ["Sd", "init"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "ChartDataEntry"]
+- !private ["s9EquatableP", "Double"]
+- !private ["s9EquatableP", "LineChartData"]
+- !private ["s9EquatableP", "LineChartDataSet"]
+- ["s9EquatableP", "LineChartView"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lnChart"]
+- !private ["s9EquatableP", "numbers"]
+- !private ["s9EquatableP", "numbers2"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "txtBox"]
+- !private ["s9EquatableP", "txtBox2"]
+- !private ["s9EquatableP", "updateGraph"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "ChartDataEntry"]
+- !private ["s8HashableP", "Double"]
+- !private ["s8HashableP", "LineChartData"]
+- !private ["s8HashableP", "LineChartDataSet"]
+- ["s8HashableP", "LineChartView"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "lnChart"]
+- !private ["s8HashableP", "numbers"]
+- !private ["s8HashableP", "numbers2"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "txtBox"]
+- !private ["s8HashableP", "txtBox2"]
+- !private ["s8HashableP", "updateGraph"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["So8NSCodingP", "ChartDataEntry"]
+- !private ["So8NSCodingP", "Double"]
+- !private ["So8NSCodingP", "LineChartData"]
+- !private ["So8NSCodingP", "LineChartDataSet"]
+- ["So8NSCodingP", "LineChartView"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "lnChart"]
+- !private ["So8NSCodingP", "numbers"]
+- !private ["So8NSCodingP", "numbers2"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "txtBox"]
+- !private ["So8NSCodingP", "txtBox2"]
+- !private ["So8NSCodingP", "updateGraph"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "ChartDataEntry"]
+- !private ["So26NSExtensionRequestHandlingP", "Double"]
+- !private ["So26NSExtensionRequestHandlingP", "LineChartData"]
+- !private ["So26NSExtensionRequestHandlingP", "LineChartDataSet"]
+- ["So26NSExtensionRequestHandlingP", "LineChartView"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "lnChart"]
+- !private ["So26NSExtensionRequestHandlingP", "numbers"]
+- !private ["So26NSExtensionRequestHandlingP", "numbers2"]
+- !private ["So26NSExtensionRequestHandlingP", "txtBox"]
+- !private ["So26NSExtensionRequestHandlingP", "txtBox2"]
+- !private ["So26NSExtensionRequestHandlingP", "updateGraph"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So8NSObjectC", "ChartDataEntry"]
+- ["So8NSObjectC", "Double"]
+- !private ["So8NSObjectC", "LineChartData"]
+- !private ["So8NSObjectC", "LineChartDataSet"]
+- ["So8NSObjectC", "LineChartView"]
+- ["So8NSObjectC", "UITextField"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "graphBtn"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lnChart"]
+- ["So8NSObjectC", "numbers"]
+- ["So8NSObjectC", "numbers2"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "txtBox"]
+- ["So8NSObjectC", "txtBox2"]
+- ["So8NSObjectC", "updateGraph"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "ChartDataEntry"]
+- !private ["So16NSObjectProtocolP", "Double"]
+- !private ["So16NSObjectProtocolP", "LineChartData"]
+- !private ["So16NSObjectProtocolP", "LineChartDataSet"]
+- ["So16NSObjectProtocolP", "LineChartView"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "lnChart"]
+- !private ["So16NSObjectProtocolP", "numbers"]
+- !private ["So16NSObjectProtocolP", "numbers2"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "txtBox"]
+- !private ["So16NSObjectProtocolP", "txtBox2"]
+- !private ["So16NSObjectProtocolP", "updateGraph"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["s7NumericP", "init"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "count"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "ChartDataEntry"]
+- !private ["So21UIAppearanceContainerP", "Double"]
+- !private ["So21UIAppearanceContainerP", "LineChartData"]
+- !private ["So21UIAppearanceContainerP", "LineChartDataSet"]
+- ["So21UIAppearanceContainerP", "LineChartView"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "lnChart"]
+- !private ["So21UIAppearanceContainerP", "numbers"]
+- !private ["So21UIAppearanceContainerP", "numbers2"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "txtBox"]
+- !private ["So21UIAppearanceContainerP", "txtBox2"]
+- !private ["So21UIAppearanceContainerP", "updateGraph"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "ChartDataEntry"]
+- !private ["So18UIContentContainerP", "Double"]
+- !private ["So18UIContentContainerP", "LineChartData"]
+- !private ["So18UIContentContainerP", "LineChartDataSet"]
+- ["So18UIContentContainerP", "LineChartView"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "lnChart"]
+- !private ["So18UIContentContainerP", "numbers"]
+- !private ["So18UIContentContainerP", "numbers2"]
+- !private ["So18UIContentContainerP", "txtBox"]
+- !private ["So18UIContentContainerP", "txtBox2"]
+- !private ["So18UIContentContainerP", "updateGraph"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "ChartDataEntry"]
+- !private ["So18UIFocusEnvironmentP", "Double"]
+- !private ["So18UIFocusEnvironmentP", "LineChartData"]
+- !private ["So18UIFocusEnvironmentP", "LineChartDataSet"]
+- ["So18UIFocusEnvironmentP", "LineChartView"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "lnChart"]
+- !private ["So18UIFocusEnvironmentP", "numbers"]
+- !private ["So18UIFocusEnvironmentP", "numbers2"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "txtBox"]
+- !private ["So18UIFocusEnvironmentP", "txtBox2"]
+- !private ["So18UIFocusEnvironmentP", "updateGraph"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "ChartDataEntry"]
+- !private ["So30UIPasteConfigurationSupportingP", "Double"]
+- !private ["So30UIPasteConfigurationSupportingP", "LineChartData"]
+- !private ["So30UIPasteConfigurationSupportingP", "LineChartDataSet"]
+- ["So30UIPasteConfigurationSupportingP", "LineChartView"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "lnChart"]
+- !private ["So30UIPasteConfigurationSupportingP", "numbers"]
+- !private ["So30UIPasteConfigurationSupportingP", "numbers2"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "txtBox"]
+- !private ["So30UIPasteConfigurationSupportingP", "txtBox2"]
+- !private ["So30UIPasteConfigurationSupportingP", "updateGraph"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "ChartDataEntry"]
+- ["So11UIResponderC", "Double"]
+- !private ["So11UIResponderC", "LineChartData"]
+- !private ["So11UIResponderC", "LineChartDataSet"]
+- ["So11UIResponderC", "LineChartView"]
+- ["So11UIResponderC", "UITextField"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "graphBtn"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "lnChart"]
+- ["So11UIResponderC", "numbers"]
+- ["So11UIResponderC", "numbers2"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "txtBox"]
+- ["So11UIResponderC", "txtBox2"]
+- ["So11UIResponderC", "updateGraph"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "ChartDataEntry"]
+- !private ["So30UIResponderStandardEditActionsP", "Double"]
+- !private ["So30UIResponderStandardEditActionsP", "LineChartData"]
+- !private ["So30UIResponderStandardEditActionsP", "LineChartDataSet"]
+- ["So30UIResponderStandardEditActionsP", "LineChartView"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "lnChart"]
+- !private ["So30UIResponderStandardEditActionsP", "numbers"]
+- !private ["So30UIResponderStandardEditActionsP", "numbers2"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "txtBox"]
+- !private ["So30UIResponderStandardEditActionsP", "txtBox2"]
+- !private ["So30UIResponderStandardEditActionsP", "updateGraph"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So16UIStateRestoringP", "ChartDataEntry"]
+- !private ["So16UIStateRestoringP", "Double"]
+- !private ["So16UIStateRestoringP", "LineChartData"]
+- !private ["So16UIStateRestoringP", "LineChartDataSet"]
+- ["So16UIStateRestoringP", "LineChartView"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "lnChart"]
+- !private ["So16UIStateRestoringP", "numbers"]
+- !private ["So16UIStateRestoringP", "numbers2"]
+- !private ["So16UIStateRestoringP", "txtBox"]
+- !private ["So16UIStateRestoringP", "txtBox2"]
+- !private ["So16UIStateRestoringP", "updateGraph"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So18UITraitEnvironmentP", "ChartDataEntry"]
+- !private ["So18UITraitEnvironmentP", "Double"]
+- !private ["So18UITraitEnvironmentP", "LineChartData"]
+- !private ["So18UITraitEnvironmentP", "LineChartDataSet"]
+- ["So18UITraitEnvironmentP", "LineChartView"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "lnChart"]
+- !private ["So18UITraitEnvironmentP", "numbers"]
+- !private ["So18UITraitEnvironmentP", "numbers2"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "txtBox"]
+- !private ["So18UITraitEnvironmentP", "txtBox2"]
+- !private ["So18UITraitEnvironmentP", "updateGraph"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "ChartDataEntry"]
+- ["So16UIViewControllerC", "Double"]
+- !private ["So16UIViewControllerC", "LineChartData"]
+- !private ["So16UIViewControllerC", "LineChartDataSet"]
+- ["So16UIViewControllerC", "LineChartView"]
+- ["So16UIViewControllerC", "UITextField"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "graphBtn"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "lnChart"]
+- ["So16UIViewControllerC", "numbers"]
+- ["So16UIViewControllerC", "numbers2"]
+- ["So16UIViewControllerC", "txtBox"]
+- ["So16UIViewControllerC", "txtBox2"]
+- ["So16UIViewControllerC", "updateGraph"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", ""]
+- !private ["7M_Brace14ViewControllerC", "ChartDataEntry"]
+- ["7M_Brace14ViewControllerC", "Double"]
+- !private ["7M_Brace14ViewControllerC", "LineChartData"]
+- !private ["7M_Brace14ViewControllerC", "LineChartDataSet"]
+- ["7M_Brace14ViewControllerC", "LineChartView"]
+- ["7M_Brace14ViewControllerC", "UITextField"]
+- ["7M_Brace14ViewControllerC", "deinit"]
+- ["7M_Brace14ViewControllerC", "didReceiveMemoryWarning"]
+- ["7M_Brace14ViewControllerC", "graphBtn"]
+- ["7M_Brace14ViewControllerC", "init"]
+- !private ["7M_Brace14ViewControllerC", "lnChart"]
+- ["7M_Brace14ViewControllerC", "numbers"]
+- ["7M_Brace14ViewControllerC", "numbers2"]
+- ["7M_Brace14ViewControllerC", "txtBox"]
+- ["7M_Brace14ViewControllerC", "txtBox2"]
+- ["7M_Brace14ViewControllerC", "updateGraph"]
+- ["7M_Brace14ViewControllerC", "viewDidLoad"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s23_BidirectionalIndexableP", "append"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s10_IndexableP", "append"]
+- !private ["s10_IndexableP", "count"]
+- !private ["s14_IndexableBaseP", "append"]
+- !private ["s14_IndexableBaseP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ChartDataEntry"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LineChartData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LineChartDataSet"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "LineChartView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lnChart"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numbers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numbers2"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "txtBox"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "txtBox2"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateGraph"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "append"]
+- !private ["s17_MutableIndexableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s22_RandomAccessIndexableP", "append"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- !private ["s26_RangeReplaceableIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- !private ["s11_StrideableP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "Sd"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s7NumericP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So10UIKeyInputP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "7M_Brace14ViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "91c5d547d917d099d71680caebace2ab"

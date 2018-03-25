@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "ebac4ba28fbea44a37c5058372ce6a41"
+build_time: [1520372521, 230710000]
+inputs:
+  "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/M-Brace/ViewController.swift": [1520372520, 0]
+  "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/M-Brace/AppDelegate.swift": [1520036796, 0]

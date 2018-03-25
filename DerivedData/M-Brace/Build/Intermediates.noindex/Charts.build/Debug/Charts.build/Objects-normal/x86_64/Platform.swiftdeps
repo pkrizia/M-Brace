@@ -1,0 +1,1280 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NSUIFont"
+- "NSUIColor"
+- "NSUIEvent"
+- "NSUITouch"
+- "NSUIImage"
+- "NSUIScrollView"
+- "NSUIGestureRecognizer"
+- "NSUIGestureRecognizerState"
+- "NSUIGestureRecognizerDelegate"
+- "NSUITapGestureRecognizer"
+- "NSUIPanGestureRecognizer"
+- "NSUIPinchGestureRecognizer"
+- "NSUIRotationGestureRecognizer"
+- "NSUIScreen"
+- "NSUIDisplayLink"
+- "NSUIView"
+- "NSUIGraphicsGetCurrentContext"
+- "NSUIGraphicsPushContext"
+- "NSUIGraphicsPopContext"
+- "NSUIImagePNGRepresentation"
+- "NSUIImageJPEGRepresentation"
+- "NSUIGraphicsBeginImageContextWithOptions"
+- "NSUIGraphicsGetImageFromCurrentImageContext"
+- "NSUIGraphicsEndImageContext"
+- "NSUIMainScreen"
+provides-nominal:
+- "6Charts15NSUIDisplayLinkC"
+- "6Charts8NSUIViewC"
+provides-member:
+- ["6Charts15NSUIDisplayLinkC", ""]
+- ["So24NSClickGestureRecognizerC", ""]
+- ["So22NSPanGestureRecognizerC", ""]
+- ["So27NSRotationGestureRecognizerC", ""]
+- ["So32NSMagnificationGestureRecognizerC", ""]
+- ["So6NSViewC", ""]
+- ["So12NSScrollViewC", ""]
+- ["6Charts8NSUIViewC", ""]
+- ["So6NSFontC", ""]
+- ["So8NSScreenC", ""]
+- ["So7NSImageC", ""]
+- ["So7NSTouchC", ""]
+- ["So24NSClickGestureRecognizerC", "nsuiNumberOfTouches"]
+- ["So24NSClickGestureRecognizerC", "nsuiNumberOfTapsRequired"]
+- ["So22NSPanGestureRecognizerC", "nsuiNumberOfTouches"]
+- ["So22NSPanGestureRecognizerC", "nsuiLocationOfTouch"]
+- ["So27NSRotationGestureRecognizerC", "velocity"]
+- ["So27NSRotationGestureRecognizerC", "nsuiRotation"]
+- ["So32NSMagnificationGestureRecognizerC", "nsuiScale"]
+- ["So32NSMagnificationGestureRecognizerC", "nsuiLocationOfTouch"]
+- ["So6NSViewC", "nsuiGestureRecognizers"]
+- ["So12NSScrollViewC", "nsuiIsScrollEnabled"]
+- ["So6NSFontC", "lineHeight"]
+- ["So8NSScreenC", "nsuiScale"]
+- ["So7NSImageC", "cgImage"]
+- ["So7NSTouchC", "locationInView"]
+- ["So12NSScrollViewC", "scrollEnabled"]
+provides-dynamic-lookup:
+- "isFlipped"
+- "touchesBegan"
+- "touchesCancelled"
+- "touchesEnded"
+- "touchesMoved"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "/"
+- !private "=="
+- !private ">"
+- !private "??"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CALayer"
+- !private "CFAbsoluteTimeGetCurrent"
+- "CFTimeInterval"
+- !private "CGAffineTransform"
+- !private "CGColorSpaceCreateDeviceRGB"
+- "CGContext"
+- "CGFloat"
+- "CGImage"
+- !private "CGImageAlphaInfo"
+- "CGSize"
+- "CVDisplayLink"
+- !private "CVDisplayLinkCreateWithActiveCGDisplays"
+- !private "CVDisplayLinkSetOutputCallback"
+- !private "CVDisplayLinkStart"
+- !private "CVDisplayLinkStop"
+- !private "CVReturn"
+- "Data"
+- !private "Dictionary"
+- "Int"
+- !private "NSBitmapImageRep"
+- "NSClickGestureRecognizer"
+- "NSColor"
+- "NSEvent"
+- "NSFont"
+- "NSGestureRecognizer"
+- "NSGestureRecognizerDelegate"
+- !private "NSGraphicsContext"
+- "NSImage"
+- "NSMagnificationGestureRecognizer"
+- !private "NSMakeRect"
+- "NSPanGestureRecognizer"
+- "NSPoint"
+- "NSRotationGestureRecognizer"
+- "NSScreen"
+- "NSScrollView"
+- "NSTouch"
+- "NSUIColor"
+- "NSUIDisplayLink"
+- "NSUIEvent"
+- "NSUIFont"
+- "NSUIGestureRecognizer"
+- "NSUIGestureRecognizerDelegate"
+- "NSUIGestureRecognizerState"
+- "NSUIGraphicsBeginImageContextWithOptions"
+- "NSUIGraphicsEndImageContext"
+- "NSUIGraphicsGetCurrentContext"
+- "NSUIGraphicsGetImageFromCurrentImageContext"
+- "NSUIGraphicsPopContext"
+- "NSUIGraphicsPushContext"
+- "NSUIImage"
+- "NSUIImageJPEGRepresentation"
+- "NSUIImagePNGRepresentation"
+- "NSUIMainScreen"
+- "NSUIPanGestureRecognizer"
+- "NSUIPinchGestureRecognizer"
+- "NSUIRotationGestureRecognizer"
+- "NSUIScreen"
+- "NSUIScrollView"
+- "NSUITapGestureRecognizer"
+- "NSUITouch"
+- "NSUIView"
+- "NSView"
+- "RunLoop"
+- "RunLoopMode"
+- "Selector"
+- "Set"
+- "TernaryPrecedence"
+- "Timer"
+- !private "Unmanaged"
+- !private "imageContextStack"
+- !private "kCVReturnSuccess"
+- !private "unsafeBitCast"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "last"]
+- !private ["Sa", "removeLast"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "isEmpty"]
+- !private ["s23BidirectionalCollectionP", "last"]
+- !private ["s23BidirectionalCollectionP", "removeLast"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So7CALayerC", "backgroundColor"]
+- !private ["So13CAMediaTimingP", "backgroundColor"]
+- !private ["SC17CGAffineTransformV", "init"]
+- !private ["So9CGContextC", "concatenate"]
+- !private ["So9CGContextC", "height"]
+- !private ["So9CGContextC", "init"]
+- !private ["So9CGContextC", "makeImage"]
+- !private ["So9CGContextC", "scaleBy"]
+- !private ["So9CGContextC", "width"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["SC16CGImageAlphaInfoO", "noneSkipFirst"]
+- !private ["SC16CGImageAlphaInfoO", "premultipliedFirst"]
+- !private ["SC16CGImageAlphaInfoO", "rawValue"]
+- !private ["SC7CGPointV", "init"]
+- !private ["SC7CGPointV", "x"]
+- !private ["SC7CGPointV", "y"]
+- !private ["SC6CGRectV", "origin"]
+- !private ["SC6CGRectV", "size"]
+- !private ["SC6CGSizeV", "height"]
+- !private ["SC6CGSizeV", "init"]
+- !private ["SC6CGSizeV", "width"]
+- !private ["s7CVarArgP", "NSColor"]
+- !private ["s7CVarArgP", "NSPoint"]
+- !private ["s7CVarArgP", "PropertyKey"]
+- ["s7CVarArgP", "State"]
+- !private ["s7CVarArgP", "add"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "backingScaleFactor"]
+- !private ["s7CVarArgP", "boundingRectForFont"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "cgColor"]
+- !private ["s7CVarArgP", "cgContext"]
+- !private ["s7CVarArgP", "cgImage"]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "gestureRecognizers"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "invalidate"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "location"]
+- !private ["s7CVarArgP", "lockFocus"]
+- !private ["s7CVarArgP", "magnification"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "normalizedPosition"]
+- !private ["s7CVarArgP", "nsuiTouchesBegan"]
+- !private ["s7CVarArgP", "nsuiTouchesCancelled"]
+- !private ["s7CVarArgP", "nsuiTouchesEnded"]
+- !private ["s7CVarArgP", "nsuiTouchesMoved"]
+- !private ["s7CVarArgP", "numberOfClicksRequired"]
+- !private ["s7CVarArgP", "removeLast"]
+- !private ["s7CVarArgP", "representation"]
+- !private ["s7CVarArgP", "restoreGraphicsState"]
+- !private ["s7CVarArgP", "rotation"]
+- !private ["s7CVarArgP", "saveGraphicsState"]
+- !private ["s7CVarArgP", "scrollEnabled"]
+- !private ["s7CVarArgP", "setNeedsDisplay"]
+- !private ["s7CVarArgP", "size"]
+- !private ["s7CVarArgP", "touches"]
+- !private ["s7CVarArgP", "touchesBegan"]
+- !private ["s7CVarArgP", "touchesCancelled"]
+- !private ["s7CVarArgP", "touchesEnded"]
+- !private ["s7CVarArgP", "touchesMoved"]
+- !private ["s7CVarArgP", "unlockFocus"]
+- !private ["s7CVarArgP", "wantsLayer"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10CollectionP", "last"]
+- !private ["s10CollectionP", "removeLast"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "NSColor"]
+- !private ["s28CustomDebugStringConvertibleP", "NSPoint"]
+- !private ["s28CustomDebugStringConvertibleP", "PropertyKey"]
+- ["s28CustomDebugStringConvertibleP", "State"]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "backingScaleFactor"]
+- !private ["s28CustomDebugStringConvertibleP", "boundingRectForFont"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "cgColor"]
+- !private ["s28CustomDebugStringConvertibleP", "cgContext"]
+- !private ["s28CustomDebugStringConvertibleP", "cgImage"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "gestureRecognizers"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "invalidate"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "location"]
+- !private ["s28CustomDebugStringConvertibleP", "lockFocus"]
+- !private ["s28CustomDebugStringConvertibleP", "magnification"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "normalizedPosition"]
+- !private ["s28CustomDebugStringConvertibleP", "nsuiTouchesBegan"]
+- !private ["s28CustomDebugStringConvertibleP", "nsuiTouchesCancelled"]
+- !private ["s28CustomDebugStringConvertibleP", "nsuiTouchesEnded"]
+- !private ["s28CustomDebugStringConvertibleP", "nsuiTouchesMoved"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfClicksRequired"]
+- !private ["s28CustomDebugStringConvertibleP", "origin"]
+- !private ["s28CustomDebugStringConvertibleP", "removeLast"]
+- !private ["s28CustomDebugStringConvertibleP", "representation"]
+- !private ["s28CustomDebugStringConvertibleP", "restoreGraphicsState"]
+- !private ["s28CustomDebugStringConvertibleP", "rotation"]
+- !private ["s28CustomDebugStringConvertibleP", "saveGraphicsState"]
+- !private ["s28CustomDebugStringConvertibleP", "scrollEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "setNeedsDisplay"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "touches"]
+- !private ["s28CustomDebugStringConvertibleP", "touchesBegan"]
+- !private ["s28CustomDebugStringConvertibleP", "touchesCancelled"]
+- !private ["s28CustomDebugStringConvertibleP", "touchesEnded"]
+- !private ["s28CustomDebugStringConvertibleP", "touchesMoved"]
+- !private ["s28CustomDebugStringConvertibleP", "unlockFocus"]
+- !private ["s28CustomDebugStringConvertibleP", "wantsLayer"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "origin"]
+- !private ["s29CustomPlaygroundQuickLookableP", "size"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "x"]
+- !private ["s29CustomPlaygroundQuickLookableP", "y"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "origin"]
+- !private ["s17CustomReflectableP", "removeLast"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s17CustomReflectableP", "x"]
+- !private ["s17CustomReflectableP", "y"]
+- !private ["s23CustomStringConvertibleP", "NSColor"]
+- !private ["s23CustomStringConvertibleP", "NSPoint"]
+- !private ["s23CustomStringConvertibleP", "PropertyKey"]
+- ["s23CustomStringConvertibleP", "State"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "backingScaleFactor"]
+- !private ["s23CustomStringConvertibleP", "boundingRectForFont"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "cgColor"]
+- !private ["s23CustomStringConvertibleP", "cgContext"]
+- !private ["s23CustomStringConvertibleP", "cgImage"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "gestureRecognizers"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "invalidate"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "location"]
+- !private ["s23CustomStringConvertibleP", "lockFocus"]
+- !private ["s23CustomStringConvertibleP", "magnification"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "normalizedPosition"]
+- !private ["s23CustomStringConvertibleP", "nsuiTouchesBegan"]
+- !private ["s23CustomStringConvertibleP", "nsuiTouchesCancelled"]
+- !private ["s23CustomStringConvertibleP", "nsuiTouchesEnded"]
+- !private ["s23CustomStringConvertibleP", "nsuiTouchesMoved"]
+- !private ["s23CustomStringConvertibleP", "numberOfClicksRequired"]
+- !private ["s23CustomStringConvertibleP", "removeLast"]
+- !private ["s23CustomStringConvertibleP", "representation"]
+- !private ["s23CustomStringConvertibleP", "restoreGraphicsState"]
+- !private ["s23CustomStringConvertibleP", "rotation"]
+- !private ["s23CustomStringConvertibleP", "saveGraphicsState"]
+- !private ["s23CustomStringConvertibleP", "scrollEnabled"]
+- !private ["s23CustomStringConvertibleP", "setNeedsDisplay"]
+- !private ["s23CustomStringConvertibleP", "size"]
+- !private ["s23CustomStringConvertibleP", "touches"]
+- !private ["s23CustomStringConvertibleP", "touchesBegan"]
+- !private ["s23CustomStringConvertibleP", "touchesCancelled"]
+- !private ["s23CustomStringConvertibleP", "touchesEnded"]
+- !private ["s23CustomStringConvertibleP", "touchesMoved"]
+- !private ["s23CustomStringConvertibleP", "unlockFocus"]
+- !private ["s23CustomStringConvertibleP", "wantsLayer"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "height"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isEmpty"]
+- !private ["s9DecodableP", "last"]
+- !private ["s9DecodableP", "origin"]
+- !private ["s9DecodableP", "removeLast"]
+- !private ["s9DecodableP", "size"]
+- !private ["s9DecodableP", "width"]
+- !private ["s9DecodableP", "x"]
+- !private ["s9DecodableP", "y"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "height"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isEmpty"]
+- !private ["s9EncodableP", "last"]
+- !private ["s9EncodableP", "origin"]
+- !private ["s9EncodableP", "removeLast"]
+- !private ["s9EncodableP", "size"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EncodableP", "x"]
+- !private ["s9EncodableP", "y"]
+- !private ["s9EquatableP", "NSColor"]
+- !private ["s9EquatableP", "NSPoint"]
+- !private ["s9EquatableP", "PropertyKey"]
+- ["s9EquatableP", "State"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "add"]
+- !private ["s9EquatableP", "any"]
+- !private ["s9EquatableP", "backgroundColor"]
+- !private ["s9EquatableP", "backingScaleFactor"]
+- !private ["s9EquatableP", "boundingRectForFont"]
+- !private ["s9EquatableP", "bounds"]
+- !private ["s9EquatableP", "cgColor"]
+- !private ["s9EquatableP", "cgContext"]
+- !private ["s9EquatableP", "cgImage"]
+- !private ["s9EquatableP", "compressionFactor"]
+- !private ["s9EquatableP", "concatenate"]
+- !private ["s9EquatableP", "current"]
+- !private ["s9EquatableP", "gestureRecognizers"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "invalidate"]
+- !private ["s9EquatableP", "jpeg"]
+- !private ["s9EquatableP", "layer"]
+- !private ["s9EquatableP", "location"]
+- !private ["s9EquatableP", "lockFocus"]
+- !private ["s9EquatableP", "magnification"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "makeImage"]
+- !private ["s9EquatableP", "noneSkipFirst"]
+- !private ["s9EquatableP", "normalizedPosition"]
+- !private ["s9EquatableP", "nsuiTouchesBegan"]
+- !private ["s9EquatableP", "nsuiTouchesCancelled"]
+- !private ["s9EquatableP", "nsuiTouchesEnded"]
+- !private ["s9EquatableP", "nsuiTouchesMoved"]
+- !private ["s9EquatableP", "numberOfClicksRequired"]
+- !private ["s9EquatableP", "origin"]
+- !private ["s9EquatableP", "png"]
+- !private ["s9EquatableP", "premultipliedFirst"]
+- !private ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "representation"]
+- !private ["s9EquatableP", "restoreGraphicsState"]
+- !private ["s9EquatableP", "rotation"]
+- !private ["s9EquatableP", "saveGraphicsState"]
+- !private ["s9EquatableP", "scaleBy"]
+- !private ["s9EquatableP", "scrollEnabled"]
+- !private ["s9EquatableP", "setNeedsDisplay"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "touches"]
+- !private ["s9EquatableP", "touchesBegan"]
+- !private ["s9EquatableP", "touchesCancelled"]
+- !private ["s9EquatableP", "touchesEnded"]
+- !private ["s9EquatableP", "touchesMoved"]
+- !private ["s9EquatableP", "unlockFocus"]
+- !private ["s9EquatableP", "wantsLayer"]
+- !private ["s9EquatableP", "width"]
+- !private ["s9EquatableP", "x"]
+- !private ["s9EquatableP", "y"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "any"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeLast"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["So16NSBitmapImageRepC8FileTypeO", "jpeg"]
+- !private ["So16NSBitmapImageRepC8FileTypeO", "png"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "NSColor"]
+- !private ["s8HashableP", "NSPoint"]
+- !private ["s8HashableP", "PropertyKey"]
+- ["s8HashableP", "State"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "add"]
+- !private ["s8HashableP", "backgroundColor"]
+- !private ["s8HashableP", "backingScaleFactor"]
+- !private ["s8HashableP", "boundingRectForFont"]
+- !private ["s8HashableP", "bounds"]
+- !private ["s8HashableP", "cgColor"]
+- !private ["s8HashableP", "cgContext"]
+- !private ["s8HashableP", "cgImage"]
+- !private ["s8HashableP", "compressionFactor"]
+- !private ["s8HashableP", "concatenate"]
+- !private ["s8HashableP", "current"]
+- !private ["s8HashableP", "gestureRecognizers"]
+- !private ["s8HashableP", "height"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "invalidate"]
+- !private ["s8HashableP", "jpeg"]
+- !private ["s8HashableP", "layer"]
+- !private ["s8HashableP", "location"]
+- !private ["s8HashableP", "lockFocus"]
+- !private ["s8HashableP", "magnification"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "makeImage"]
+- !private ["s8HashableP", "noneSkipFirst"]
+- !private ["s8HashableP", "normalizedPosition"]
+- !private ["s8HashableP", "nsuiTouchesBegan"]
+- !private ["s8HashableP", "nsuiTouchesCancelled"]
+- !private ["s8HashableP", "nsuiTouchesEnded"]
+- !private ["s8HashableP", "nsuiTouchesMoved"]
+- !private ["s8HashableP", "numberOfClicksRequired"]
+- !private ["s8HashableP", "png"]
+- !private ["s8HashableP", "premultipliedFirst"]
+- !private ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "representation"]
+- !private ["s8HashableP", "restoreGraphicsState"]
+- !private ["s8HashableP", "rotation"]
+- !private ["s8HashableP", "saveGraphicsState"]
+- !private ["s8HashableP", "scaleBy"]
+- !private ["s8HashableP", "scrollEnabled"]
+- !private ["s8HashableP", "setNeedsDisplay"]
+- !private ["s8HashableP", "size"]
+- !private ["s8HashableP", "touches"]
+- !private ["s8HashableP", "touchesBegan"]
+- !private ["s8HashableP", "touchesCancelled"]
+- !private ["s8HashableP", "touchesEnded"]
+- !private ["s8HashableP", "touchesMoved"]
+- !private ["s8HashableP", "unlockFocus"]
+- !private ["s8HashableP", "wantsLayer"]
+- !private ["s8HashableP", "width"]
+- ["s8HashableP", ""]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "isEmpty"]
+- !private ["s17MutableCollectionP", "last"]
+- !private ["s17MutableCollectionP", "removeLast"]
+- !private ["So15NSAccessibilityP", "NSColor"]
+- !private ["So15NSAccessibilityP", "bounds"]
+- !private ["So15NSAccessibilityP", "gestureRecognizers"]
+- !private ["So15NSAccessibilityP", "init"]
+- !private ["So15NSAccessibilityP", "layer"]
+- !private ["So15NSAccessibilityP", "nsuiTouchesBegan"]
+- !private ["So15NSAccessibilityP", "nsuiTouchesCancelled"]
+- !private ["So15NSAccessibilityP", "nsuiTouchesEnded"]
+- !private ["So15NSAccessibilityP", "nsuiTouchesMoved"]
+- !private ["So15NSAccessibilityP", "scrollEnabled"]
+- !private ["So15NSAccessibilityP", "setNeedsDisplay"]
+- !private ["So15NSAccessibilityP", "touchesBegan"]
+- !private ["So15NSAccessibilityP", "touchesCancelled"]
+- !private ["So15NSAccessibilityP", "touchesEnded"]
+- !private ["So15NSAccessibilityP", "touchesMoved"]
+- !private ["So15NSAccessibilityP", "wantsLayer"]
+- ["So15NSAccessibilityP", ""]
+- !private ["So30NSAccessibilityElementProtocolP", "NSColor"]
+- !private ["So30NSAccessibilityElementProtocolP", "bounds"]
+- !private ["So30NSAccessibilityElementProtocolP", "gestureRecognizers"]
+- !private ["So30NSAccessibilityElementProtocolP", "init"]
+- !private ["So30NSAccessibilityElementProtocolP", "layer"]
+- !private ["So30NSAccessibilityElementProtocolP", "nsuiTouchesBegan"]
+- !private ["So30NSAccessibilityElementProtocolP", "nsuiTouchesCancelled"]
+- !private ["So30NSAccessibilityElementProtocolP", "nsuiTouchesEnded"]
+- !private ["So30NSAccessibilityElementProtocolP", "nsuiTouchesMoved"]
+- !private ["So30NSAccessibilityElementProtocolP", "scrollEnabled"]
+- !private ["So30NSAccessibilityElementProtocolP", "setNeedsDisplay"]
+- !private ["So30NSAccessibilityElementProtocolP", "touchesBegan"]
+- !private ["So30NSAccessibilityElementProtocolP", "touchesCancelled"]
+- !private ["So30NSAccessibilityElementProtocolP", "touchesEnded"]
+- !private ["So30NSAccessibilityElementProtocolP", "touchesMoved"]
+- !private ["So30NSAccessibilityElementProtocolP", "wantsLayer"]
+- ["So30NSAccessibilityElementProtocolP", ""]
+- !private ["So29NSAnimatablePropertyContainerP", "NSColor"]
+- !private ["So29NSAnimatablePropertyContainerP", "bounds"]
+- !private ["So29NSAnimatablePropertyContainerP", "gestureRecognizers"]
+- !private ["So29NSAnimatablePropertyContainerP", "init"]
+- !private ["So29NSAnimatablePropertyContainerP", "layer"]
+- !private ["So29NSAnimatablePropertyContainerP", "nsuiTouchesBegan"]
+- !private ["So29NSAnimatablePropertyContainerP", "nsuiTouchesCancelled"]
+- !private ["So29NSAnimatablePropertyContainerP", "nsuiTouchesEnded"]
+- !private ["So29NSAnimatablePropertyContainerP", "nsuiTouchesMoved"]
+- !private ["So29NSAnimatablePropertyContainerP", "scrollEnabled"]
+- !private ["So29NSAnimatablePropertyContainerP", "setNeedsDisplay"]
+- !private ["So29NSAnimatablePropertyContainerP", "touchesBegan"]
+- !private ["So29NSAnimatablePropertyContainerP", "touchesCancelled"]
+- !private ["So29NSAnimatablePropertyContainerP", "touchesEnded"]
+- !private ["So29NSAnimatablePropertyContainerP", "touchesMoved"]
+- !private ["So29NSAnimatablePropertyContainerP", "wantsLayer"]
+- ["So29NSAnimatablePropertyContainerP", ""]
+- !private ["So25NSAppearanceCustomizationP", "NSColor"]
+- !private ["So25NSAppearanceCustomizationP", "bounds"]
+- !private ["So25NSAppearanceCustomizationP", "gestureRecognizers"]
+- !private ["So25NSAppearanceCustomizationP", "init"]
+- !private ["So25NSAppearanceCustomizationP", "layer"]
+- !private ["So25NSAppearanceCustomizationP", "nsuiTouchesBegan"]
+- !private ["So25NSAppearanceCustomizationP", "nsuiTouchesCancelled"]
+- !private ["So25NSAppearanceCustomizationP", "nsuiTouchesEnded"]
+- !private ["So25NSAppearanceCustomizationP", "nsuiTouchesMoved"]
+- !private ["So25NSAppearanceCustomizationP", "scrollEnabled"]
+- !private ["So25NSAppearanceCustomizationP", "setNeedsDisplay"]
+- !private ["So25NSAppearanceCustomizationP", "touchesBegan"]
+- !private ["So25NSAppearanceCustomizationP", "touchesCancelled"]
+- !private ["So25NSAppearanceCustomizationP", "touchesEnded"]
+- !private ["So25NSAppearanceCustomizationP", "touchesMoved"]
+- !private ["So25NSAppearanceCustomizationP", "wantsLayer"]
+- ["So25NSAppearanceCustomizationP", ""]
+- !private ["So16NSBitmapImageRepC", "PropertyKey"]
+- !private ["So16NSBitmapImageRepC", "init"]
+- !private ["So16NSBitmapImageRepC", "representation"]
+- ["So24NSClickGestureRecognizerC", "Int"]
+- ["So24NSClickGestureRecognizerC", "nsuiNumberOfTapsRequired"]
+- ["So24NSClickGestureRecognizerC", "nsuiNumberOfTouches"]
+- !private ["So24NSClickGestureRecognizerC", "numberOfClicksRequired"]
+- !private ["So8NSCodingP", "NSColor"]
+- !private ["So8NSCodingP", "PropertyKey"]
+- ["So8NSCodingP", "State"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "boundingRectForFont"]
+- !private ["So8NSCodingP", "bounds"]
+- !private ["So8NSCodingP", "cgColor"]
+- !private ["So8NSCodingP", "cgImage"]
+- !private ["So8NSCodingP", "gestureRecognizers"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "location"]
+- !private ["So8NSCodingP", "lockFocus"]
+- !private ["So8NSCodingP", "magnification"]
+- !private ["So8NSCodingP", "nsuiTouchesBegan"]
+- !private ["So8NSCodingP", "nsuiTouchesCancelled"]
+- !private ["So8NSCodingP", "nsuiTouchesEnded"]
+- !private ["So8NSCodingP", "nsuiTouchesMoved"]
+- !private ["So8NSCodingP", "numberOfClicksRequired"]
+- !private ["So8NSCodingP", "representation"]
+- !private ["So8NSCodingP", "rotation"]
+- !private ["So8NSCodingP", "scrollEnabled"]
+- !private ["So8NSCodingP", "setNeedsDisplay"]
+- !private ["So8NSCodingP", "size"]
+- !private ["So8NSCodingP", "touches"]
+- !private ["So8NSCodingP", "touchesBegan"]
+- !private ["So8NSCodingP", "touchesCancelled"]
+- !private ["So8NSCodingP", "touchesEnded"]
+- !private ["So8NSCodingP", "touchesMoved"]
+- !private ["So8NSCodingP", "unlockFocus"]
+- !private ["So8NSCodingP", "wantsLayer"]
+- ["So8NSCodingP", ""]
+- !private ["So7NSColorC", "cgColor"]
+- !private ["So7NSColorC", "init"]
+- !private ["So9NSCopyingP", "NSPoint"]
+- !private ["So9NSCopyingP", "PropertyKey"]
+- !private ["So9NSCopyingP", "boundingRectForFont"]
+- !private ["So9NSCopyingP", "cgColor"]
+- !private ["So9NSCopyingP", "cgImage"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "lockFocus"]
+- !private ["So9NSCopyingP", "normalizedPosition"]
+- !private ["So9NSCopyingP", "representation"]
+- !private ["So9NSCopyingP", "size"]
+- !private ["So9NSCopyingP", "touches"]
+- !private ["So9NSCopyingP", "unlockFocus"]
+- !private ["So21NSDraggingDestinationP", "NSColor"]
+- !private ["So21NSDraggingDestinationP", "bounds"]
+- !private ["So21NSDraggingDestinationP", "gestureRecognizers"]
+- !private ["So21NSDraggingDestinationP", "init"]
+- !private ["So21NSDraggingDestinationP", "layer"]
+- !private ["So21NSDraggingDestinationP", "nsuiTouchesBegan"]
+- !private ["So21NSDraggingDestinationP", "nsuiTouchesCancelled"]
+- !private ["So21NSDraggingDestinationP", "nsuiTouchesEnded"]
+- !private ["So21NSDraggingDestinationP", "nsuiTouchesMoved"]
+- !private ["So21NSDraggingDestinationP", "scrollEnabled"]
+- !private ["So21NSDraggingDestinationP", "setNeedsDisplay"]
+- !private ["So21NSDraggingDestinationP", "touchesBegan"]
+- !private ["So21NSDraggingDestinationP", "touchesCancelled"]
+- !private ["So21NSDraggingDestinationP", "touchesEnded"]
+- !private ["So21NSDraggingDestinationP", "touchesMoved"]
+- !private ["So21NSDraggingDestinationP", "wantsLayer"]
+- ["So21NSDraggingDestinationP", ""]
+- !private ["So7NSEventC", "touches"]
+- ["So6NSFontC", "CGFloat"]
+- !private ["So6NSFontC", "boundingRectForFont"]
+- ["So6NSFontC", "lineHeight"]
+- ["So19NSGestureRecognizerC", "CGFloat"]
+- ["So19NSGestureRecognizerC", "Int"]
+- ["So19NSGestureRecognizerC", "NSPoint"]
+- ["So19NSGestureRecognizerC", "NSView"]
+- ["So19NSGestureRecognizerC", "State"]
+- !private ["So19NSGestureRecognizerC", "location"]
+- !private ["So19NSGestureRecognizerC", "magnification"]
+- ["So19NSGestureRecognizerC", "nsuiLocationOfTouch"]
+- ["So19NSGestureRecognizerC", "nsuiNumberOfTapsRequired"]
+- ["So19NSGestureRecognizerC", "nsuiNumberOfTouches"]
+- ["So19NSGestureRecognizerC", "nsuiRotation"]
+- ["So19NSGestureRecognizerC", "nsuiScale"]
+- !private ["So19NSGestureRecognizerC", "numberOfClicksRequired"]
+- !private ["So19NSGestureRecognizerC", "rotation"]
+- ["So19NSGestureRecognizerC", "velocity"]
+- !private ["So17NSGraphicsContextC", "cgContext"]
+- !private ["So17NSGraphicsContextC", "current"]
+- !private ["So17NSGraphicsContextC", "init"]
+- !private ["So17NSGraphicsContextC", "restoreGraphicsState"]
+- !private ["So17NSGraphicsContextC", "saveGraphicsState"]
+- ["So7NSImageC", "CGImage"]
+- ["So7NSImageC", "cgImage"]
+- !private ["So7NSImageC", "init"]
+- !private ["So7NSImageC", "lockFocus"]
+- !private ["So7NSImageC", "size"]
+- !private ["So7NSImageC", "unlockFocus"]
+- !private ["So10NSImageRepC", "PropertyKey"]
+- !private ["So10NSImageRepC", "init"]
+- !private ["So10NSImageRepC", "representation"]
+- ["So32NSMagnificationGestureRecognizerC", "CGFloat"]
+- ["So32NSMagnificationGestureRecognizerC", "Int"]
+- ["So32NSMagnificationGestureRecognizerC", "NSPoint"]
+- ["So32NSMagnificationGestureRecognizerC", "NSView"]
+- !private ["So32NSMagnificationGestureRecognizerC", "magnification"]
+- ["So32NSMagnificationGestureRecognizerC", "nsuiLocationOfTouch"]
+- ["So32NSMagnificationGestureRecognizerC", "nsuiScale"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CALayer"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "CGImage"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "NSColor"]
+- ["So8NSObjectC", "NSEvent"]
+- ["So8NSObjectC", "NSGestureRecognizer"]
+- ["So8NSObjectC", "NSPoint"]
+- ["So8NSObjectC", "NSUIColor"]
+- ["So8NSObjectC", "NSUIEvent"]
+- ["So8NSObjectC", "NSUITouch"]
+- ["So8NSObjectC", "NSView"]
+- !private ["So8NSObjectC", "PropertyKey"]
+- ["So8NSObjectC", "Set"]
+- ["So8NSObjectC", "State"]
+- !private ["So8NSObjectC", "add"]
+- ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "backingScaleFactor"]
+- !private ["So8NSObjectC", "boundingRectForFont"]
+- !private ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "cgColor"]
+- !private ["So8NSObjectC", "cgContext"]
+- ["So8NSObjectC", "cgImage"]
+- !private ["So8NSObjectC", "current"]
+- !private ["So8NSObjectC", "gestureRecognizers"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "invalidate"]
+- ["So8NSObjectC", "isFlipped"]
+- !private ["So8NSObjectC", "layer"]
+- ["So8NSObjectC", "lineHeight"]
+- !private ["So8NSObjectC", "location"]
+- ["So8NSObjectC", "locationInView"]
+- !private ["So8NSObjectC", "lockFocus"]
+- !private ["So8NSObjectC", "magnification"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "normalizedPosition"]
+- ["So8NSObjectC", "nsuiGestureRecognizers"]
+- ["So8NSObjectC", "nsuiIsScrollEnabled"]
+- ["So8NSObjectC", "nsuiLayer"]
+- ["So8NSObjectC", "nsuiLocationOfTouch"]
+- ["So8NSObjectC", "nsuiNumberOfTapsRequired"]
+- ["So8NSObjectC", "nsuiNumberOfTouches"]
+- ["So8NSObjectC", "nsuiRotation"]
+- ["So8NSObjectC", "nsuiScale"]
+- ["So8NSObjectC", "nsuiTouchesBegan"]
+- ["So8NSObjectC", "nsuiTouchesCancelled"]
+- ["So8NSObjectC", "nsuiTouchesEnded"]
+- ["So8NSObjectC", "nsuiTouchesMoved"]
+- !private ["So8NSObjectC", "numberOfClicksRequired"]
+- !private ["So8NSObjectC", "representation"]
+- !private ["So8NSObjectC", "restoreGraphicsState"]
+- !private ["So8NSObjectC", "rotation"]
+- !private ["So8NSObjectC", "saveGraphicsState"]
+- ["So8NSObjectC", "scrollEnabled"]
+- ["So8NSObjectC", "setNeedsDisplay"]
+- !private ["So8NSObjectC", "size"]
+- !private ["So8NSObjectC", "touches"]
+- ["So8NSObjectC", "touchesBegan"]
+- ["So8NSObjectC", "touchesCancelled"]
+- ["So8NSObjectC", "touchesEnded"]
+- ["So8NSObjectC", "touchesMoved"]
+- !private ["So8NSObjectC", "unlockFocus"]
+- ["So8NSObjectC", "velocity"]
+- !private ["So8NSObjectC", "wantsLayer"]
+- !private ["So16NSObjectProtocolP", "NSColor"]
+- !private ["So16NSObjectProtocolP", "NSPoint"]
+- !private ["So16NSObjectProtocolP", "PropertyKey"]
+- ["So16NSObjectProtocolP", "State"]
+- !private ["So16NSObjectProtocolP", "add"]
+- !private ["So16NSObjectProtocolP", "backgroundColor"]
+- !private ["So16NSObjectProtocolP", "backingScaleFactor"]
+- !private ["So16NSObjectProtocolP", "boundingRectForFont"]
+- !private ["So16NSObjectProtocolP", "bounds"]
+- !private ["So16NSObjectProtocolP", "cgColor"]
+- !private ["So16NSObjectProtocolP", "cgContext"]
+- !private ["So16NSObjectProtocolP", "cgImage"]
+- !private ["So16NSObjectProtocolP", "current"]
+- !private ["So16NSObjectProtocolP", "gestureRecognizers"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "invalidate"]
+- !private ["So16NSObjectProtocolP", "layer"]
+- !private ["So16NSObjectProtocolP", "location"]
+- !private ["So16NSObjectProtocolP", "lockFocus"]
+- !private ["So16NSObjectProtocolP", "magnification"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "normalizedPosition"]
+- !private ["So16NSObjectProtocolP", "nsuiTouchesBegan"]
+- !private ["So16NSObjectProtocolP", "nsuiTouchesCancelled"]
+- !private ["So16NSObjectProtocolP", "nsuiTouchesEnded"]
+- !private ["So16NSObjectProtocolP", "nsuiTouchesMoved"]
+- !private ["So16NSObjectProtocolP", "numberOfClicksRequired"]
+- !private ["So16NSObjectProtocolP", "representation"]
+- !private ["So16NSObjectProtocolP", "restoreGraphicsState"]
+- !private ["So16NSObjectProtocolP", "rotation"]
+- !private ["So16NSObjectProtocolP", "saveGraphicsState"]
+- !private ["So16NSObjectProtocolP", "scrollEnabled"]
+- !private ["So16NSObjectProtocolP", "setNeedsDisplay"]
+- !private ["So16NSObjectProtocolP", "size"]
+- !private ["So16NSObjectProtocolP", "touches"]
+- !private ["So16NSObjectProtocolP", "touchesBegan"]
+- !private ["So16NSObjectProtocolP", "touchesCancelled"]
+- !private ["So16NSObjectProtocolP", "touchesEnded"]
+- !private ["So16NSObjectProtocolP", "touchesMoved"]
+- !private ["So16NSObjectProtocolP", "unlockFocus"]
+- !private ["So16NSObjectProtocolP", "wantsLayer"]
+- ["So16NSObjectProtocolP", ""]
+- ["So22NSPanGestureRecognizerC", "Int"]
+- ["So22NSPanGestureRecognizerC", "NSPoint"]
+- ["So22NSPanGestureRecognizerC", "NSView"]
+- ["So22NSPanGestureRecognizerC", "nsuiLocationOfTouch"]
+- ["So22NSPanGestureRecognizerC", "nsuiNumberOfTouches"]
+- !private ["So19NSPasteboardReadingP", "cgColor"]
+- !private ["So19NSPasteboardReadingP", "cgImage"]
+- !private ["So19NSPasteboardReadingP", "init"]
+- !private ["So19NSPasteboardReadingP", "lockFocus"]
+- !private ["So19NSPasteboardReadingP", "size"]
+- !private ["So19NSPasteboardReadingP", "unlockFocus"]
+- !private ["So19NSPasteboardWritingP", "cgColor"]
+- !private ["So19NSPasteboardWritingP", "cgImage"]
+- !private ["So19NSPasteboardWritingP", "init"]
+- !private ["So19NSPasteboardWritingP", "lockFocus"]
+- !private ["So19NSPasteboardWritingP", "size"]
+- !private ["So19NSPasteboardWritingP", "unlockFocus"]
+- ["So11NSResponderC", "Bool"]
+- ["So11NSResponderC", "CALayer"]
+- !private ["So11NSResponderC", "NSColor"]
+- ["So11NSResponderC", "NSEvent"]
+- ["So11NSResponderC", "NSGestureRecognizer"]
+- ["So11NSResponderC", "NSUIColor"]
+- ["So11NSResponderC", "NSUIEvent"]
+- ["So11NSResponderC", "NSUITouch"]
+- ["So11NSResponderC", "Set"]
+- ["So11NSResponderC", "backgroundColor"]
+- !private ["So11NSResponderC", "bounds"]
+- !private ["So11NSResponderC", "gestureRecognizers"]
+- ["So11NSResponderC", "init"]
+- ["So11NSResponderC", "isFlipped"]
+- !private ["So11NSResponderC", "layer"]
+- ["So11NSResponderC", "nsuiGestureRecognizers"]
+- ["So11NSResponderC", "nsuiIsScrollEnabled"]
+- ["So11NSResponderC", "nsuiLayer"]
+- ["So11NSResponderC", "nsuiTouchesBegan"]
+- ["So11NSResponderC", "nsuiTouchesCancelled"]
+- ["So11NSResponderC", "nsuiTouchesEnded"]
+- ["So11NSResponderC", "nsuiTouchesMoved"]
+- ["So11NSResponderC", "scrollEnabled"]
+- ["So11NSResponderC", "setNeedsDisplay"]
+- ["So11NSResponderC", "touchesBegan"]
+- ["So11NSResponderC", "touchesCancelled"]
+- ["So11NSResponderC", "touchesEnded"]
+- ["So11NSResponderC", "touchesMoved"]
+- !private ["So11NSResponderC", "wantsLayer"]
+- ["So27NSRotationGestureRecognizerC", "CGFloat"]
+- ["So27NSRotationGestureRecognizerC", "nsuiRotation"]
+- !private ["So27NSRotationGestureRecognizerC", "rotation"]
+- ["So27NSRotationGestureRecognizerC", "velocity"]
+- ["So8NSScreenC", "CGFloat"]
+- !private ["So8NSScreenC", "backingScaleFactor"]
+- !private ["So8NSScreenC", "main"]
+- ["So8NSScreenC", "nsuiScale"]
+- ["So12NSScrollViewC", "Bool"]
+- ["So12NSScrollViewC", "nsuiIsScrollEnabled"]
+- ["So12NSScrollViewC", "scrollEnabled"]
+- !private ["So14NSSecureCodingP", "PropertyKey"]
+- !private ["So14NSSecureCodingP", "backgroundColor"]
+- !private ["So14NSSecureCodingP", "boundingRectForFont"]
+- !private ["So14NSSecureCodingP", "cgColor"]
+- !private ["So14NSSecureCodingP", "cgImage"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "lockFocus"]
+- !private ["So14NSSecureCodingP", "representation"]
+- !private ["So14NSSecureCodingP", "size"]
+- !private ["So14NSSecureCodingP", "unlockFocus"]
+- !private ["So24NSTextFinderBarContainerP", "scrollEnabled"]
+- ["So7NSTouchC", "NSPoint"]
+- ["So7NSTouchC", "NSView"]
+- ["So7NSTouchC", "locationInView"]
+- !private ["So7NSTouchC", "normalizedPosition"]
+- !private ["So18NSTouchBarProviderP", "NSColor"]
+- !private ["So18NSTouchBarProviderP", "bounds"]
+- !private ["So18NSTouchBarProviderP", "gestureRecognizers"]
+- !private ["So18NSTouchBarProviderP", "init"]
+- !private ["So18NSTouchBarProviderP", "layer"]
+- !private ["So18NSTouchBarProviderP", "nsuiTouchesBegan"]
+- !private ["So18NSTouchBarProviderP", "nsuiTouchesCancelled"]
+- !private ["So18NSTouchBarProviderP", "nsuiTouchesEnded"]
+- !private ["So18NSTouchBarProviderP", "nsuiTouchesMoved"]
+- !private ["So18NSTouchBarProviderP", "scrollEnabled"]
+- !private ["So18NSTouchBarProviderP", "setNeedsDisplay"]
+- !private ["So18NSTouchBarProviderP", "touchesBegan"]
+- !private ["So18NSTouchBarProviderP", "touchesCancelled"]
+- !private ["So18NSTouchBarProviderP", "touchesEnded"]
+- !private ["So18NSTouchBarProviderP", "touchesMoved"]
+- !private ["So18NSTouchBarProviderP", "wantsLayer"]
+- ["So18NSTouchBarProviderP", ""]
+- ["6Charts15NSUIDisplayLinkC", "AnyObject"]
+- !private ["6Charts15NSUIDisplayLinkC", "CFAbsoluteTimeGetCurrent"]
+- ["6Charts15NSUIDisplayLinkC", "CFTimeInterval"]
+- ["6Charts15NSUIDisplayLinkC", "CVDisplayLink"]
+- !private ["6Charts15NSUIDisplayLinkC", "CVDisplayLinkCreateWithActiveCGDisplays"]
+- !private ["6Charts15NSUIDisplayLinkC", "CVDisplayLinkSetOutputCallback"]
+- !private ["6Charts15NSUIDisplayLinkC", "CVDisplayLinkStart"]
+- !private ["6Charts15NSUIDisplayLinkC", "CVDisplayLinkStop"]
+- !private ["6Charts15NSUIDisplayLinkC", "CVReturn"]
+- !private ["6Charts15NSUIDisplayLinkC", "NSUIDisplayLink"]
+- ["6Charts15NSUIDisplayLinkC", "RunLoop"]
+- ["6Charts15NSUIDisplayLinkC", "RunLoopMode"]
+- ["6Charts15NSUIDisplayLinkC", "Selector"]
+- ["6Charts15NSUIDisplayLinkC", "Timer"]
+- !private ["6Charts15NSUIDisplayLinkC", "Unmanaged"]
+- !private ["6Charts15NSUIDisplayLinkC", "_selector"]
+- !private ["6Charts15NSUIDisplayLinkC", "_target"]
+- !private ["6Charts15NSUIDisplayLinkC", "_timestamp"]
+- ["6Charts15NSUIDisplayLinkC", "add"]
+- ["6Charts15NSUIDisplayLinkC", "deinit"]
+- !private ["6Charts15NSUIDisplayLinkC", "displayLink"]
+- ["6Charts15NSUIDisplayLinkC", "init"]
+- !private ["6Charts15NSUIDisplayLinkC", "kCVReturnSuccess"]
+- ["6Charts15NSUIDisplayLinkC", "remove"]
+- !private ["6Charts15NSUIDisplayLinkC", "stop"]
+- !private ["6Charts15NSUIDisplayLinkC", "timer"]
+- ["6Charts15NSUIDisplayLinkC", "timestamp"]
+- !private ["6Charts15NSUIDisplayLinkC", "unsafeBitCast"]
+- ["6Charts8NSUIViewC", "Bool"]
+- ["6Charts8NSUIViewC", "CALayer"]
+- !private ["6Charts8NSUIViewC", "NSColor"]
+- ["6Charts8NSUIViewC", "NSEvent"]
+- ["6Charts8NSUIViewC", "NSUIColor"]
+- ["6Charts8NSUIViewC", "NSUIEvent"]
+- ["6Charts8NSUIViewC", "NSUITouch"]
+- ["6Charts8NSUIViewC", "Set"]
+- ["6Charts8NSUIViewC", "backgroundColor"]
+- !private ["6Charts8NSUIViewC", "bounds"]
+- ["6Charts8NSUIViewC", "deinit"]
+- ["6Charts8NSUIViewC", "init"]
+- ["6Charts8NSUIViewC", "isFlipped"]
+- !private ["6Charts8NSUIViewC", "layer"]
+- ["6Charts8NSUIViewC", "nsuiLayer"]
+- ["6Charts8NSUIViewC", "nsuiTouchesBegan"]
+- ["6Charts8NSUIViewC", "nsuiTouchesCancelled"]
+- ["6Charts8NSUIViewC", "nsuiTouchesEnded"]
+- ["6Charts8NSUIViewC", "nsuiTouchesMoved"]
+- ["6Charts8NSUIViewC", "setNeedsDisplay"]
+- ["6Charts8NSUIViewC", "touchesBegan"]
+- ["6Charts8NSUIViewC", "touchesCancelled"]
+- ["6Charts8NSUIViewC", "touchesEnded"]
+- ["6Charts8NSUIViewC", "touchesMoved"]
+- !private ["6Charts8NSUIViewC", "wantsLayer"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "NSColor"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "bounds"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "gestureRecognizers"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "init"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "layer"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "nsuiTouchesBegan"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "nsuiTouchesCancelled"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "nsuiTouchesEnded"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "nsuiTouchesMoved"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "scrollEnabled"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "setNeedsDisplay"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "touchesBegan"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "touchesCancelled"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "touchesEnded"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "touchesMoved"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "wantsLayer"]
+- ["So33NSUserInterfaceItemIdentificationP", ""]
+- ["So6NSViewC", "Bool"]
+- ["So6NSViewC", "CALayer"]
+- !private ["So6NSViewC", "NSColor"]
+- ["So6NSViewC", "NSEvent"]
+- ["So6NSViewC", "NSGestureRecognizer"]
+- ["So6NSViewC", "NSUIColor"]
+- ["So6NSViewC", "NSUIEvent"]
+- ["So6NSViewC", "NSUITouch"]
+- ["So6NSViewC", "Set"]
+- ["So6NSViewC", "backgroundColor"]
+- !private ["So6NSViewC", "bounds"]
+- !private ["So6NSViewC", "gestureRecognizers"]
+- ["So6NSViewC", "init"]
+- ["So6NSViewC", "isFlipped"]
+- !private ["So6NSViewC", "layer"]
+- ["So6NSViewC", "nsuiGestureRecognizers"]
+- ["So6NSViewC", "nsuiIsScrollEnabled"]
+- ["So6NSViewC", "nsuiLayer"]
+- ["So6NSViewC", "nsuiTouchesBegan"]
+- ["So6NSViewC", "nsuiTouchesCancelled"]
+- ["So6NSViewC", "nsuiTouchesEnded"]
+- ["So6NSViewC", "nsuiTouchesMoved"]
+- ["So6NSViewC", "scrollEnabled"]
+- ["So6NSViewC", "setNeedsDisplay"]
+- ["So6NSViewC", "touchesBegan"]
+- ["So6NSViewC", "touchesCancelled"]
+- ["So6NSViewC", "touchesEnded"]
+- ["So6NSViewC", "touchesMoved"]
+- !private ["So6NSViewC", "wantsLayer"]
+- ["So6NSViewC", ""]
+- !private ["s7NumericP", "init"]
+- !private ["s9OptionSetP", "any"]
+- !private ["So7NSTouchC5PhaseV", "any"]
+- !private ["So16NSBitmapImageRepC11PropertyKeyV", "compressionFactor"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "isEmpty"]
+- !private ["s22RandomAccessCollectionP", "last"]
+- !private ["s22RandomAccessCollectionP", "removeLast"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "isEmpty"]
+- !private ["s26RangeReplaceableCollectionP", "last"]
+- !private ["s26RangeReplaceableCollectionP", "removeLast"]
+- !private ["s16RawRepresentableP", "any"]
+- !private ["s16RawRepresentableP", "compressionFactor"]
+- !private ["s16RawRepresentableP", "jpeg"]
+- !private ["s16RawRepresentableP", "noneSkipFirst"]
+- !private ["s16RawRepresentableP", "png"]
+- !private ["s16RawRepresentableP", "premultipliedFirst"]
+- !private ["s16RawRepresentableP", "rawValue"]
+- !private ["So7RunLoopC", "add"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["s8SequenceP", "last"]
+- !private ["s8SequenceP", "removeLast"]
+- !private ["s10SetAlgebraP", "any"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["So5TimerC", "init"]
+- !private ["So5TimerC", "invalidate"]
+- !private ["s9UnmanagedV", "passUnretained"]
+- !private ["s9UnmanagedV", "toOpaque"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s14_ArrayProtocolP", "removeLast"]
+- !private ["s23_BidirectionalIndexableP", "append"]
+- !private ["s23_BidirectionalIndexableP", "isEmpty"]
+- !private ["s23_BidirectionalIndexableP", "last"]
+- !private ["s23_BidirectionalIndexableP", "removeLast"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["14CoreFoundation9_CFObjectP", "concatenate"]
+- !private ["14CoreFoundation9_CFObjectP", "height"]
+- !private ["14CoreFoundation9_CFObjectP", "init"]
+- !private ["14CoreFoundation9_CFObjectP", "makeImage"]
+- !private ["14CoreFoundation9_CFObjectP", "scaleBy"]
+- !private ["14CoreFoundation9_CFObjectP", "width"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "NSColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bounds"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "gestureRecognizers"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "nsuiTouchesBegan"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "nsuiTouchesCancelled"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "nsuiTouchesEnded"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "nsuiTouchesMoved"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "scrollEnabled"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setNeedsDisplay"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "touchesBegan"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "touchesCancelled"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "touchesEnded"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "touchesMoved"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "wantsLayer"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s24_DestructorSafeContainerP", "removeLast"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "cgColor"]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "cgImage"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "lockFocus"]
+- !private ["s26_ExpressibleByImageLiteralP", "size"]
+- !private ["s26_ExpressibleByImageLiteralP", "unlockFocus"]
+- !private ["s10_IndexableP", "append"]
+- !private ["s10_IndexableP", "isEmpty"]
+- !private ["s10_IndexableP", "last"]
+- !private ["s10_IndexableP", "removeLast"]
+- !private ["s14_IndexableBaseP", "append"]
+- !private ["s14_IndexableBaseP", "isEmpty"]
+- !private ["s14_IndexableBaseP", "last"]
+- !private ["s14_IndexableBaseP", "removeLast"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSPoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PropertyKey"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "State"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "add"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backingScaleFactor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "boundingRectForFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "gestureRecognizers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "invalidate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "location"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lockFocus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "magnification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "normalizedPosition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nsuiTouchesBegan"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nsuiTouchesCancelled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nsuiTouchesEnded"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nsuiTouchesMoved"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfClicksRequired"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "representation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "restoreGraphicsState"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rotation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "saveGraphicsState"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scrollEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setNeedsDisplay"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "size"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "touches"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "touchesBegan"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "touchesCancelled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "touchesEnded"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "touchesMoved"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlockFocus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wantsLayer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "append"]
+- !private ["s17_MutableIndexableP", "isEmpty"]
+- !private ["s17_MutableIndexableP", "last"]
+- !private ["s17_MutableIndexableP", "removeLast"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "compressionFactor"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "origin"]
+- !private ["s21_ObjectiveCBridgeableP", "removeLast"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s21_ObjectiveCBridgeableP", "x"]
+- !private ["s21_ObjectiveCBridgeableP", "y"]
+- !private ["s22_RandomAccessIndexableP", "append"]
+- !private ["s22_RandomAccessIndexableP", "isEmpty"]
+- !private ["s22_RandomAccessIndexableP", "last"]
+- !private ["s22_RandomAccessIndexableP", "removeLast"]
+- !private ["s26_RangeReplaceableIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "isEmpty"]
+- !private ["s26_RangeReplaceableIndexableP", "last"]
+- !private ["s26_RangeReplaceableIndexableP", "removeLast"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "compressionFactor"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "So7CALayerC"
+- !private "So13CAMediaTimingP"
+- !private "SC17CGAffineTransformV"
+- !private "So9CGContextC"
+- !private "12CoreGraphics7CGFloatV"
+- !private "SC16CGImageAlphaInfoO"
+- !private "SC7CGPointV"
+- !private "SC6CGRectV"
+- !private "SC6CGSizeV"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "So16NSBitmapImageRepC8FileTypeO"
+- !private "s17FixedWidthIntegerP"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So15NSAccessibilityP"
+- "So30NSAccessibilityElementProtocolP"
+- "So29NSAnimatablePropertyContainerP"
+- "So25NSAppearanceCustomizationP"
+- !private "So16NSBitmapImageRepC"
+- "So24NSClickGestureRecognizerC"
+- "So8NSCodingP"
+- !private "So7NSColorC"
+- !private "So9NSCopyingP"
+- "So21NSDraggingDestinationP"
+- !private "So7NSEventC"
+- "So6NSFontC"
+- "So19NSGestureRecognizerC"
+- !private "So17NSGraphicsContextC"
+- "So7NSImageC"
+- !private "So10NSImageRepC"
+- "So32NSMagnificationGestureRecognizerC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So22NSPanGestureRecognizerC"
+- !private "So19NSPasteboardReadingP"
+- !private "So19NSPasteboardWritingP"
+- "So11NSResponderC"
+- "So27NSRotationGestureRecognizerC"
+- "So8NSScreenC"
+- "So12NSScrollViewC"
+- !private "So14NSSecureCodingP"
+- !private "So24NSTextFinderBarContainerP"
+- "So7NSTouchC"
+- "So18NSTouchBarProviderP"
+- "6Charts15NSUIDisplayLinkC"
+- "6Charts8NSUIViewC"
+- "So33NSUserInterfaceItemIdentificationP"
+- "So6NSViewC"
+- !private "s7NumericP"
+- !private "s9OptionSetP"
+- !private "So7NSTouchC5PhaseV"
+- !private "So16NSBitmapImageRepC11PropertyKeyV"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "So7RunLoopC"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "So5TimerC"
+- !private "s9UnmanagedV"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "14CoreFoundation9_CFObjectP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+- !private "performSelector"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuickLook.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/Pods/Charts-master/Source/Supporting Files/Charts.h"
+- "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/DerivedData/M-Brace/Build/Intermediates.noindex/Charts.build/Debug/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "348038d01a0e616ab81ec8ce8fdb4e18"

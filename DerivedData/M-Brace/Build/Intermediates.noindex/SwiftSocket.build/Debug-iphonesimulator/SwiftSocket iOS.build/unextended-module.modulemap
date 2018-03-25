@@ -1,0 +1,10 @@
+framework module SwiftSocket {
+  umbrella header "SwiftSocket.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftSocket.__Swift {
+    exclude header "SwiftSocket-Swift.h"
+}

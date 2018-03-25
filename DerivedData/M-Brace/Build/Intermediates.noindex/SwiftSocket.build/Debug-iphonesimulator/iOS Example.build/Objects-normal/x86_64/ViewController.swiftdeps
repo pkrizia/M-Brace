@@ -1,0 +1,563 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "11iOS_Example14ViewControllerC"
+provides-member:
+- ["11iOS_Example14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "host"
+- "port"
+- "sendButtonAction"
+- "textView"
+- "viewDidLoad"
+depends-top-level:
+- !private "*"
+- "AssignmentPrecedence"
+- !private "Int32"
+- !private "String"
+- "StringLiteralType"
+- "TCPClient"
+- "UITextView"
+- "UIViewController"
+- !private "UnicodeScalarType"
+- "ViewController"
+- !private "print"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "appending"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "Int32"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "TCPClient"]
+- !private ["s7CVarArgP", "appendToTextField"]
+- !private ["s7CVarArgP", "appending"]
+- !private ["s7CVarArgP", "client"]
+- !private ["s7CVarArgP", "host"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "port"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "readResponse"]
+- !private ["s7CVarArgP", "sendRequest"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "textView"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "appending"]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "appending"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Int32"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "TCPClient"]
+- !private ["s28CustomDebugStringConvertibleP", "appendToTextField"]
+- !private ["s28CustomDebugStringConvertibleP", "appending"]
+- !private ["s28CustomDebugStringConvertibleP", "client"]
+- !private ["s28CustomDebugStringConvertibleP", "host"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "port"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "readResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "sendRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "textView"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "appending"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "appending"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Int32"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "TCPClient"]
+- !private ["s23CustomStringConvertibleP", "appendToTextField"]
+- !private ["s23CustomStringConvertibleP", "appending"]
+- !private ["s23CustomStringConvertibleP", "client"]
+- !private ["s23CustomStringConvertibleP", "host"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "port"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "readResponse"]
+- !private ["s23CustomStringConvertibleP", "sendRequest"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "textView"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "appending"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "appending"]
+- ["s9EncodableP", "init"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["s9EquatableP", "Int32"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "TCPClient"]
+- !private ["s9EquatableP", "appendToTextField"]
+- !private ["s9EquatableP", "appending"]
+- !private ["s9EquatableP", "client"]
+- !private ["s9EquatableP", "host"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "port"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "readResponse"]
+- !private ["s9EquatableP", "sendRequest"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "textView"]
+- !private ["s9EquatableP", "utf8"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "appending"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "appending"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "appending"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s8HashableP", "Int32"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "TCPClient"]
+- !private ["s8HashableP", "appendToTextField"]
+- !private ["s8HashableP", "appending"]
+- !private ["s8HashableP", "client"]
+- !private ["s8HashableP", "host"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "port"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "readResponse"]
+- !private ["s8HashableP", "sendRequest"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "textView"]
+- !private ["s8HashableP", "utf8"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["s5Int32V", "init"]
+- !private ["s25LosslessStringConvertibleP", "appending"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "appending"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "Int32"]
+- !private ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "TCPClient"]
+- !private ["So8NSCodingP", "appendToTextField"]
+- !private ["So8NSCodingP", "appending"]
+- !private ["So8NSCodingP", "client"]
+- !private ["So8NSCodingP", "host"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "port"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "readResponse"]
+- !private ["So8NSCodingP", "sendRequest"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "textView"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "appending"]
+- ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "Int32"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
+- !private ["So26NSExtensionRequestHandlingP", "TCPClient"]
+- !private ["So26NSExtensionRequestHandlingP", "appendToTextField"]
+- !private ["So26NSExtensionRequestHandlingP", "client"]
+- !private ["So26NSExtensionRequestHandlingP", "host"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "port"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "readResponse"]
+- !private ["So26NSExtensionRequestHandlingP", "sendRequest"]
+- !private ["So26NSExtensionRequestHandlingP", "textView"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "appending"]
+- ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "appending"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "appending"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "Int32"]
+- !private ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "TCPClient"]
+- ["So8NSObjectC", "UITextView"]
+- ["So8NSObjectC", "appendToTextField"]
+- !private ["So8NSObjectC", "appending"]
+- ["So8NSObjectC", "client"]
+- ["So8NSObjectC", "host"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "port"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "readResponse"]
+- ["So8NSObjectC", "sendButtonAction"]
+- ["So8NSObjectC", "sendRequest"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "textView"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "Int32"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "TCPClient"]
+- !private ["So16NSObjectProtocolP", "appendToTextField"]
+- !private ["So16NSObjectProtocolP", "appending"]
+- !private ["So16NSObjectProtocolP", "client"]
+- !private ["So16NSObjectProtocolP", "host"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "port"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "readResponse"]
+- !private ["So16NSObjectProtocolP", "sendRequest"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "textView"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "appending"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "appending"]
+- ["So8NSStringC", "init"]
+- !private ["s7NumericP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "appending"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "utf8"]
+- ["11SwiftSocket6ResultO", "failure"]
+- ["11SwiftSocket6ResultO", "success"]
+- !private ["s8SequenceP", "appending"]
+- ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["11SwiftSocket0B0C", "address"]
+- !private ["11SwiftSocket0B0C", "connect"]
+- !private ["11SwiftSocket0B0C", "init"]
+- !private ["11SwiftSocket0B0C", "read"]
+- !private ["11SwiftSocket0B0C", "send"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "appending"]
+- ["SS", "init"]
+- !private ["s14StringProtocolP", "appending"]
+- ["s14StringProtocolP", "init"]
+- !private ["11SwiftSocket9TCPClientC", "address"]
+- !private ["11SwiftSocket9TCPClientC", "connect"]
+- !private ["11SwiftSocket9TCPClientC", "init"]
+- !private ["11SwiftSocket9TCPClientC", "read"]
+- !private ["11SwiftSocket9TCPClientC", "send"]
+- !private ["s16TextOutputStreamP", "appending"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "appending"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "Int32"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "TCPClient"]
+- !private ["So21UIAppearanceContainerP", "appendToTextField"]
+- !private ["So21UIAppearanceContainerP", "client"]
+- !private ["So21UIAppearanceContainerP", "host"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "port"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "readResponse"]
+- !private ["So21UIAppearanceContainerP", "sendRequest"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "textView"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "Int32"]
+- !private ["So18UIContentContainerP", "String"]
+- !private ["So18UIContentContainerP", "TCPClient"]
+- !private ["So18UIContentContainerP", "appendToTextField"]
+- !private ["So18UIContentContainerP", "client"]
+- !private ["So18UIContentContainerP", "host"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "port"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "readResponse"]
+- !private ["So18UIContentContainerP", "sendRequest"]
+- !private ["So18UIContentContainerP", "textView"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "Int32"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "TCPClient"]
+- !private ["So18UIFocusEnvironmentP", "appendToTextField"]
+- !private ["So18UIFocusEnvironmentP", "client"]
+- !private ["So18UIFocusEnvironmentP", "host"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "port"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "readResponse"]
+- !private ["So18UIFocusEnvironmentP", "sendRequest"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "textView"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "Int32"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "TCPClient"]
+- !private ["So30UIPasteConfigurationSupportingP", "appendToTextField"]
+- !private ["So30UIPasteConfigurationSupportingP", "client"]
+- !private ["So30UIPasteConfigurationSupportingP", "host"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "port"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "readResponse"]
+- !private ["So30UIPasteConfigurationSupportingP", "sendRequest"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "textView"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "Int32"]
+- !private ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "TCPClient"]
+- ["So11UIResponderC", "UITextView"]
+- ["So11UIResponderC", "appendToTextField"]
+- ["So11UIResponderC", "client"]
+- ["So11UIResponderC", "host"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "port"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "readResponse"]
+- ["So11UIResponderC", "sendButtonAction"]
+- ["So11UIResponderC", "sendRequest"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "textView"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Int32"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "TCPClient"]
+- !private ["So30UIResponderStandardEditActionsP", "appendToTextField"]
+- !private ["So30UIResponderStandardEditActionsP", "client"]
+- !private ["So30UIResponderStandardEditActionsP", "host"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "port"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "readResponse"]
+- !private ["So30UIResponderStandardEditActionsP", "sendRequest"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "textView"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So12UIScrollViewC", "text"]
+- !private ["So16UIStateRestoringP", "Int32"]
+- !private ["So16UIStateRestoringP", "String"]
+- !private ["So16UIStateRestoringP", "TCPClient"]
+- !private ["So16UIStateRestoringP", "appendToTextField"]
+- !private ["So16UIStateRestoringP", "client"]
+- !private ["So16UIStateRestoringP", "host"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "port"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "readResponse"]
+- !private ["So16UIStateRestoringP", "sendRequest"]
+- !private ["So16UIStateRestoringP", "textView"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So10UITextViewC", "text"]
+- !private ["So18UITraitEnvironmentP", "Int32"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "TCPClient"]
+- !private ["So18UITraitEnvironmentP", "appendToTextField"]
+- !private ["So18UITraitEnvironmentP", "client"]
+- !private ["So18UITraitEnvironmentP", "host"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "port"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "readResponse"]
+- !private ["So18UITraitEnvironmentP", "sendRequest"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "textView"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "Int32"]
+- !private ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "TCPClient"]
+- ["So16UIViewControllerC", "UITextView"]
+- ["So16UIViewControllerC", "appendToTextField"]
+- ["So16UIViewControllerC", "client"]
+- ["So16UIViewControllerC", "host"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "port"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "readResponse"]
+- ["So16UIViewControllerC", "sendButtonAction"]
+- ["So16UIViewControllerC", "sendRequest"]
+- ["So16UIViewControllerC", "textView"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", ""]
+- !private ["11iOS_Example14ViewControllerC", "Int32"]
+- !private ["11iOS_Example14ViewControllerC", "String"]
+- ["11iOS_Example14ViewControllerC", "TCPClient"]
+- ["11iOS_Example14ViewControllerC", "UITextView"]
+- !private ["11iOS_Example14ViewControllerC", "appendToTextField"]
+- ["11iOS_Example14ViewControllerC", "client"]
+- ["11iOS_Example14ViewControllerC", "deinit"]
+- ["11iOS_Example14ViewControllerC", "host"]
+- ["11iOS_Example14ViewControllerC", "init"]
+- ["11iOS_Example14ViewControllerC", "port"]
+- !private ["11iOS_Example14ViewControllerC", "print"]
+- !private ["11iOS_Example14ViewControllerC", "readResponse"]
+- ["11iOS_Example14ViewControllerC", "sendButtonAction"]
+- !private ["11iOS_Example14ViewControllerC", "sendRequest"]
+- ["11iOS_Example14ViewControllerC", "textView"]
+- ["11iOS_Example14ViewControllerC", "viewDidLoad"]
+- !private ["s23_BidirectionalIndexableP", "appending"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "appending"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "appending"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "appending"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "appending"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "appending"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "appending"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "appending"]
+- ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "appending"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int32"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TCPClient"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appendToTextField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appending"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "client"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "host"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "port"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "readResponse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sendRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "appending"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "appending"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s16_SwiftStringViewP", "appending"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- !private "SS10FoundationE8EncodingV"
+- "s9EquatableP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "s5Int32V"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s7NumericP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- "11SwiftSocket6ResultO"
+- "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "11SwiftSocket0B0C"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- !private "11SwiftSocket9TCPClientC"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So10UIKeyInputP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So16UIStateRestoringP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- !private "So10UITextViewC"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "11iOS_Example14ViewControllerC"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/DerivedData/M-Brace/Build/Products/Debug-iphonesimulator/SwiftSocket.framework/Modules/SwiftSocket.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/DerivedData/M-Brace/Build/Products/Debug-iphonesimulator/SwiftSocket.framework/Headers/SwiftSocket.h"
+- "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/DerivedData/M-Brace/Build/Products/Debug-iphonesimulator/SwiftSocket.framework/Headers/SwiftSocket-Swift.h"
+- "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/DerivedData/M-Brace/Build/Products/Debug-iphonesimulator/SwiftSocket.framework/Modules/module.modulemap"
+interface-hash: "275f3cc13a97169a4432816fc2c8b584"

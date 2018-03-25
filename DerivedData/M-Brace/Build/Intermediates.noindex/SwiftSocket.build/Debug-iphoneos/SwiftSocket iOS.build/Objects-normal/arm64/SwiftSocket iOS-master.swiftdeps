@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "a9d4f456e9158fe51dbf3f66db121526"
+build_time: [1520274433, 605306000]
+inputs:
+  "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/Pods/SwiftSocket-master/Sources/Result.swift": [1520036796, 0]
+  "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/Pods/SwiftSocket-master/Sources/Socket.swift": [1520036796, 0]
+  "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/Pods/SwiftSocket-master/Sources/UDPClient.swift": [1520036796, 0]
+  "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/Pods/SwiftSocket-master/Sources/TCPClient.swift": [1520036796, 0]

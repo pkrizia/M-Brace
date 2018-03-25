@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "4ad351aebc59cd5004b12b184090aa32"
+build_time: [1520274491, 810285000]
+inputs:
+  "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/Pods/SwiftSocket-master/iOS Example/ViewController.swift": [1520206338, 0]
+  "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/Pods/SwiftSocket-master/iOS Example/AppDelegate.swift": [1520036796, 0]

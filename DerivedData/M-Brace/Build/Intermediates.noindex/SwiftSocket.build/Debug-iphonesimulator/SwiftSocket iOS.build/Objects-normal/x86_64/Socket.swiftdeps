@@ -1,0 +1,123 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Byte"
+- "Socket"
+- "SocketError"
+provides-nominal:
+- "11SwiftSocket0B0C"
+- "11SwiftSocket0B5ErrorO"
+provides-member:
+- ["11SwiftSocket0B0C", ""]
+- ["11SwiftSocket0B5ErrorO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Byte"
+- "Error"
+- !private "FloatLiteralType"
+- "Int32"
+- !private "IntegerLiteralType"
+- "Socket"
+- "SocketError"
+- "String"
+- "UInt8"
+depends-member:
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s10ComparableP", "hashValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s9DecodableP", "hashValue"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EquatableP", "_code"]
+- ["s9EquatableP", "_domain"]
+- ["s9EquatableP", "_getEmbeddedNSError"]
+- ["s9EquatableP", "_userInfo"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "hashValue"]
+- ["s5ErrorP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- ["s8HashableP", "_code"]
+- ["s8HashableP", "_domain"]
+- ["s8HashableP", "_getEmbeddedNSError"]
+- ["s8HashableP", "_userInfo"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- !private ["s10MirrorPathP", "hashValue"]
+- !private ["s7NumericP", "hashValue"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- ["11SwiftSocket0B0C", "Int32"]
+- ["11SwiftSocket0B0C", "String"]
+- ["11SwiftSocket0B0C", "address"]
+- ["11SwiftSocket0B0C", "deinit"]
+- ["11SwiftSocket0B0C", "fd"]
+- ["11SwiftSocket0B0C", "init"]
+- ["11SwiftSocket0B0C", "port"]
+- ["11SwiftSocket0B5ErrorO", "__derived_enum_equals"]
+- ["11SwiftSocket0B5ErrorO", "_code"]
+- ["11SwiftSocket0B5ErrorO", "_domain"]
+- ["11SwiftSocket0B5ErrorO", "_getEmbeddedNSError"]
+- ["11SwiftSocket0B5ErrorO", "_userInfo"]
+- ["11SwiftSocket0B5ErrorO", "connectionClosed"]
+- ["11SwiftSocket0B5ErrorO", "connectionTimeout"]
+- ["11SwiftSocket0B5ErrorO", "deinit"]
+- ["11SwiftSocket0B5ErrorO", "hashValue"]
+- ["11SwiftSocket0B5ErrorO", "queryFailed"]
+- ["11SwiftSocket0B5ErrorO", "unknownError"]
+- !private ["s10StrideableP", "hashValue"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- !private ["s11_StrideableP", "hashValue"]
+depends-nominal:
+- !private "s13BinaryIntegerP"
+- !private "s7CVarArgP"
+- !private "s10ComparableP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- "s5ErrorP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s7NumericP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- "11SwiftSocket0B0C"
+- "11SwiftSocket0B5ErrorO"
+- !private "s10StrideableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/Pods/SwiftSocket-master/Sources/SwiftSocket.h"
+- "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/DerivedData/M-Brace/Build/Intermediates.noindex/SwiftSocket.build/Debug-iphonesimulator/SwiftSocket iOS.build/unextended-module.modulemap"
+interface-hash: "424d68da56f12146aeaafc82654855dd"
