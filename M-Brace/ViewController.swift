@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var txtBox2: UITextField!
     
     var numbers : [Double] = [] //store all numbers/imported set of numbers here
-    var numbers2: [Double] = []
+    var numbers2: [Double] = [] //added another array for 2nd sensor
     override func viewDidLoad() {
         super.viewDidLoad()
     }
