@@ -74,6 +74,8 @@ class ViewController: UIViewController {
     }*/
     
     @IBAction func didTapButton(_ sender: UIButton) {
+        updateGraph()
+        /*
         var response = ""
         let client = TCPClient(address: "127.0.0.1", port: 12000)
         switch client.connect(timeout: 10){
@@ -99,7 +101,7 @@ class ViewController: UIViewController {
             dataOutput.text = response
             print(response)
         }
-        client.close()
+        client.close()*/
     }
     
     func clientRequest() -> ([Double]) {
@@ -110,7 +112,12 @@ class ViewController: UIViewController {
             switch client.send(string: "hello world\n"){
             case .success:
                 // timeout is necessary
-                guard let data = client.read(1024*10, timeout: 2) else { return [] }
+                guard let data = client.read(1024*10, timeout: 2) else {
+                    output = "Error: Failed to read data"
+                    dataOutput.text = output
+                    print(output)
+                    return []
+                }
                 if let response = String(bytes: data, encoding: .utf8){
                     output = response
                     dataOutput.text = " "
@@ -134,17 +141,19 @@ class ViewController: UIViewController {
     func updateGraph() {
         var output : [Double] = clientRequest()
         if (output.count != 0) {
-            var dataValues = SensorData(numSensors: output.count)
-            var updatedChartData: ChartData
+            let dataValues: SensorData = SensorData(numSensors: output.count)
             for i in 0..<dataValues.numSensors {
-                updatedChartData = dataValues.updateSensorData(sensorNum: i, dataVal: output[i])
+                lnChart.data = dataValues.updateSensorData(sensorNum: i, dataVal: output[i])
             }
             while (true) {
+                //output.removeAll()
                 output = clientRequest()
-                for i in 0..<dataValues.numSensors {
-                    updatedChartData = dataValues.updateSensorData(sensorNum: i, dataVal: output[i])
+                if (output.count == dataValues.numSensors) {
+                    for i in 0..<dataValues.numSensors {
+                        lnChart.data = dataValues.updateSensorData(sensorNum: i, dataVal: output[i])
+                    }
+                    lnChart.chartDescription?.text = "line graph"
                 }
-                lnChart.data = updatedChartData
             }
         }
         return // Client failed first try
