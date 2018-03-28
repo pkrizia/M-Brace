@@ -38,6 +38,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Graph"/>
                                 <connections>
+                                    <action selector="didTapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u9Q-oo-dhY"/>
                                     <action selector="graphBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KsL-oC-UCt"/>
                                 </connections>
                             </button>
@@ -63,17 +64,26 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="unu-21-KlL">
+                                <rect key="frame" x="323" y="636" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.96881998799870261" green="0.98323606243701867" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AHq-PG-qGx" secondAttribute="trailing" constant="10" id="9cD-b0-nn2"/>
+                            <constraint firstAttribute="bottom" secondItem="unu-21-KlL" secondAttribute="bottom" constant="10" id="LR9-Bf-ANx"/>
                             <constraint firstItem="AHq-PG-qGx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="VdX-sb-XU3"/>
                             <constraint firstItem="e1f-LR-LCA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="f3m-L2-6dW"/>
+                            <constraint firstAttribute="trailing" secondItem="unu-21-KlL" secondAttribute="trailing" constant="10" id="gSu-8A-uBf"/>
                             <constraint firstItem="e1f-LR-LCA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="kND-Rj-uxm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="dataOutput" destination="unu-21-KlL" id="sH1-NV-Olv"/>
                         <outlet property="lnChart" destination="0fo-zc-caf" id="NiK-Ay-mKo"/>
                         <outlet property="txtBox" destination="e1f-LR-LCA" id="ff3-zt-JMz"/>
                         <outlet property="txtBox2" destination="0Vh-lc-Dzq" id="dic-79-jbW"/>

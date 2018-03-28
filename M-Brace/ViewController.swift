@@ -7,17 +7,28 @@
 // Trying to commit to branch
 
 import UIKit
-//import SwiftSocket
+import SwiftSocket
 import Charts
 
 class ViewController: UIViewController {
-    
+    @IBOutlet weak var dataOutput: UILabel!
     @IBOutlet weak var txtBox: UITextField!
     @IBOutlet weak var lnChart: LineChartView!
     @IBOutlet weak var txtBox2: UITextField!
     
-    var numbers : [Double] = [] //store all numbers/imported set of numbers here
-    var numbers2: [Double] = [] //added another array for 2nd sensor
+    struct GraphData {
+        var numDataSets : Int
+        var data = [[Double]]() //store all numbers/imported set of numbers here
+        //var numbers2: [Double] = [] //added another array for 2nd sensor
+        
+        init(numVal: Int) {
+            self.numDataSets = numVal
+            for _ in 0...self.numDataSets{
+                self.data.append([0])
+            }
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -28,30 +39,58 @@ class ViewController: UIViewController {
     }
     
     //Trigger button to plot data
-    
+    var numbers = GraphData(numVal: 2)
     @IBAction func graphBtn(_ sender: Any) {
         let input = Double(txtBox.text!)
-        numbers.append(input!)
+        numbers.data[0].append(input!)
+        if (numbers.data[0].count > 15) {
+            numbers.data[0].removeFirst()
+        }
         let input2 = Double(txtBox2.text!)
-        numbers2.append(input2!)
-        updateGraph()
+        numbers.data[1].append(input2!)
+        if (numbers.data[1].count > 15) {
+            numbers.data[1].removeFirst()
+        }
+        updateGraph(value: numbers.data)
     }
-    //make 2 diff lines or multiple (one for each sensor)
-//
-//    @IBAction func graphBtn(_ sender: Any) {
-//        let input = Double(txtBox.text!) //input from user
-//        numbers.append(input!)
-//        updateGraph()
-//    }
     
-    func updateGraph(){
+    @IBAction func didTapButton(_ sender: UIButton) {
+        var response = ""
+        let client = TCPClient(address: "127.0.0.1", port: 12000)
+        switch client.connect(timeout: 10){
+        case .success:
+            switch client.send(string: "hello world\n"){
+            case .success:
+                // timeout is necessary
+                guard let data = client.read(1024*10, timeout: 2) else {
+                    print("here")
+                    return
+                }
+                if let response = String(bytes: data, encoding: .utf8){
+                    dataOutput.text = response
+                    print(response)
+                }
+            case .failure(_):
+                response = "Error: failed to obtain response."
+                dataOutput.text = response
+                print(response)
+            }
+        case .failure(_):
+            response = "Error: failed to connect."
+            dataOutput.text = response
+            print(response)
+        }
+        client.close()
+    }
+    
+    func updateGraph(value: [[Double]]){
         var lnChartData = [ChartDataEntry]() //this is the array of points that will be displayed on graph
         var lnChartData2 = [ChartDataEntry]()
         
-        for i in 0..<numbers.count{
-            let value = ChartDataEntry(x: Double(i), y: numbers[i])
+        for i in 0..<numbers.data[0].count{
+            let value = ChartDataEntry(x: Double(i), y: numbers.data[0][i])
             lnChartData.append(value)
-            let value2 = ChartDataEntry(x: Double(i), y: numbers2[i])
+            let value2 = ChartDataEntry(x: Double(i), y: numbers.data[1][i])
             lnChartData2.append(value2)
             //lnChartData2 = lnChartData + lnChartData2
         }
