@@ -21,7 +21,8 @@ class ViewController: UIViewController {
         var data = [[Double]]() //store all numbers/imported set of numbers here
         var lnChartData = [[ChartDataEntry]]() //this is the array of points that will be displayed on graph
         var line : [IChartDataSet] = []
-        let colorArray : [UIColor] = [.blue, .red, .magenta, .green, .brown, .orange, .cyan, .gray, .black]
+        let colorArray: [UIColor] = [.blue, .red, .magenta, .green, .brown, .orange]
+        let labelArray: [String] = ["Line 1", "Line 2", "Line 3", "Line 4", "Line 5", "Line 6"]
         
         init(numSensors: Int) {
             self.numSensors = numSensors
@@ -31,21 +32,20 @@ class ViewController: UIViewController {
             }
         }
         
-        func updateSensorData(sensorNum: Int, dataVal: Double) -> (ChartData) {
+        func updateSensorData(sensorNum: Int, dataVal: Double) {
             self.data[sensorNum].append(dataVal)
             if (self.data[sensorNum].count > 15) {
                 self.data[sensorNum].removeFirst()
             }
             
-            for j in 0..<self.numSensors {
-                for i in 0..<self.data[0].count{
-                    let value = ChartDataEntry(x: Double(i), y: self.data[j][i])
-                    self.lnChartData[j].append(value)
-                    line.append((LineChartDataSet(values: lnChartData[j], label: "Line")))
-                    line[j].setColor(colorArray[j])
-                }
+
+            for i in 0..<self.data[0].count{
+                let value = ChartDataEntry(x: Double(i), y: self.data[sensorNum][i])
+                self.lnChartData[sensorNum].append(value)
             }
-            return LineChartData(dataSets: line) //object will be added to chart
+            line.append((LineChartDataSet(values: lnChartData[sensorNum], label: self.labelArray[sensorNum]))) // convert data points into a dataset
+            line[sensorNum].setColor(colorArray[sensorNum])
+            //return LineChartData(dataSets: line) //object will be added to chart
         }
     }
     
@@ -58,50 +58,19 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    //Trigger button to plot data
-    /*@IBAction func graphBtn(_ sender: Any) {
-        let input = Double(txtBox.text!)
-        numbers.data[0].append(input!)
-        if (numbers.data[0].count > 15) {
-            numbers.data[0].removeFirst()
-        }
-        let input2 = Double(txtBox2.text!)
-        numbers.data[1].append(input2!)
-        if (numbers.data[1].count > 15) {
-            numbers.data[1].removeFirst()
-        }
-        updateGraph(value: numbers)
-    }*/
-    
     @IBAction func didTapButton(_ sender: UIButton) {
-        updateGraph()
-        /*
-        var response = ""
-        let client = TCPClient(address: "127.0.0.1", port: 12000)
-        switch client.connect(timeout: 10){
-        case .success:
-            switch client.send(string: "hello world\n"){
-            case .success:
-                // timeout is necessary
-                guard let data = client.read(1024*10, timeout: 2) else {
-                    print("here")
-                    return
-                }
-                if let response = String(bytes: data, encoding: .utf8){
-                    dataOutput.text = response
-                    print(response)
-                }
-            case .failure(_):
-                response = "Error: failed to obtain response."
-                dataOutput.text = response
-                print(response)
-            }
-        case .failure(_):
-            response = "Error: failed to connect."
-            dataOutput.text = response
-            print(response)
-        }
-        client.close()*/
+        //updateGraph()
+        testClass()
+    }
+    
+    func testClass() {
+        var output: [Double] = [1.2, 2.0]
+        let dataValues: SensorData = SensorData(numSensors: 1)
+        dataValues.updateSensorData(sensorNum: 0, dataVal: output[0])
+        dataValues.updateSensorData(sensorNum: 1, dataVal: output[1])
+        let data = LineChartData(dataSets: dataValues.line)
+        lnChart.data = data
+        lnChart.chartDescription?.text = "line graph"
     }
     
     func clientRequest() -> ([Double]) {
@@ -143,15 +112,20 @@ class ViewController: UIViewController {
         if (output.count != 0) {
             let dataValues: SensorData = SensorData(numSensors: output.count)
             for i in 0..<dataValues.numSensors {
-                lnChart.data = dataValues.updateSensorData(sensorNum: i, dataVal: output[i])
+                dataValues.updateSensorData(sensorNum: i, dataVal: output[i])
             }
+            let data = LineChartData(dataSets: dataValues.line)
+            lnChart.data = data
+            lnChart.chartDescription?.text = "line graph"
             while (true) {
                 //output.removeAll()
                 output = clientRequest()
                 if (output.count == dataValues.numSensors) {
                     for i in 0..<dataValues.numSensors {
-                        lnChart.data = dataValues.updateSensorData(sensorNum: i, dataVal: output[i])
+                        dataValues.updateSensorData(sensorNum: i, dataVal: output[i])
                     }
+                    let data = LineChartData(dataSets: dataValues.line)
+                    lnChart.data = data
                     lnChart.chartDescription?.text = "line graph"
                 }
             }
@@ -161,7 +135,6 @@ class ViewController: UIViewController {
     
 /*    func updateGraph(value: SensorData){
         var lnChartData = [[ChartDataEntry]]() //this is the array of points that will be displayed on graph
-        //var lnChartData2 = [ChartDataEntry]()
         
         for _ in 0...value.numSensors {
             lnChartData.append([])
