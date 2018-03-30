@@ -58,18 +58,18 @@ class ViewController: UIViewController {
         }
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
     //Trigger button to plot data
     var numbers = SensorData(numSensors: 2)
-    @IBAction func graphBtn(_ sender: Any) {
+    @IBAction func didTapButton(_ sender: UIButton) {
+        let output = clientRequestData()
+        //sampleTestData()
+        if (output.count != 0) {
+            numbers.getSensorData(sensorValues: output)
+        }
+        updateGraph(numbers: numbers)
+    }
+    
+    func sampleTestData() {
         let input = Double(txtBox.text!)
         numbers.data[0].append(input!)
         if (numbers.data[0].count > 15) {
@@ -80,11 +80,10 @@ class ViewController: UIViewController {
         if (numbers.data[1].count > 15) {
             numbers.data[1].removeFirst()
         }
-        updateGraph(numbers: numbers)
     }
     
-    @IBAction func didTapButton(_ sender: UIButton) {
-        var response = ""
+    func clientRequestData() -> ([Double]) {
+        var output = ""
         let client = TCPClient(address: "127.0.0.1", port: 12000)
         switch client.connect(timeout: 10){
         case .success:
@@ -92,58 +91,45 @@ class ViewController: UIViewController {
             case .success:
                 // timeout is necessary
                 guard let data = client.read(1024*10, timeout: 2) else {
-                    print("here")
-                    return
+                    output = "Error: Failed to read data"
+                    dataOutput.text = output
+                    print(output)
+                    return []
                 }
                 if let response = String(bytes: data, encoding: .utf8){
-                    dataOutput.text = response
-                    print(response)
+                    output = response
+                    dataOutput.text = output
+                    print(output)
+                    return response.components(separatedBy: " ").flatMap { Double($0) }
                 }
             case .failure(_):
-                response = "Error: failed to obtain response."
-                dataOutput.text = response
-                print(response)
+                output = "Error: failed to obtain response."
+                dataOutput.text = output
+                print(output)
+                break
             }
         case .failure(_):
-            response = "Error: failed to connect."
-            dataOutput.text = response
-            print(response)
+            output = "Error: failed to connect."
+            dataOutput.text = output
+            print(output)
         }
         client.close()
+        return []
     }
     
     func updateGraph(numbers: SensorData){
         let data = numbers.createSensorChartData()
         lnChart.data = data //adds the chart data to chart and graph updates
         lnChart.chartDescription?.text = "line graph"
-        /*
-        var lnChartData = [[ChartDataEntry]]() //this is the array of points that will be displayed on graph
-        var line: [IChartDataSet] = []
-        
-        for _ in 0...numbers.numSensors {
-            lnChartData.append([])
-        }
-        
-        for i in 0..<numbers.data[0].count{
-            let value = ChartDataEntry(x: Double(i), y: numbers.data[0][i])
-            lnChartData[0].append(value)
-            let value2 = ChartDataEntry(x: Double(i), y: numbers.data[1][i])
-            lnChartData[1].append(value2)
-        }
-        line.append(LineChartDataSet(values: lnChartData[0], label: "Line1"))
-        line[0].setColor(.blue)
-        
-        line.append(LineChartDataSet(values: lnChartData[1], label: "Line2"))
-        line[1].setColor(.red)
-        
-        let data = LineChartData(dataSets: line) //object will be added to chart
-    */
-        
-        //lnChart.data = data //adds the chart data to chart and graph updates
-        //lnChart.chartDescription?.text = "line graph"
     }
     
-
-
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
 }
 

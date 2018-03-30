@@ -39,7 +39,6 @@
                                 <state key="normal" title="Graph"/>
                                 <connections>
                                     <action selector="didTapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u9Q-oo-dhY"/>
-                                    <action selector="graphBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KsL-oC-UCt"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="AHq-PG-qGx">
