@@ -29,6 +29,9 @@ class ViewController: UIViewController {
             }
         }
         
+        // Mutator function:
+        //  - updates/appends new sensor values
+        //  - pops old sensor values off the array if array size is >15
         func getSensorData(sensorValues: [Double]) {
             for i in 0..<self.numSensors {
                 self.data[i].append(sensorValues[i])
@@ -38,6 +41,7 @@ class ViewController: UIViewController {
             }
         }
         
+        // Sets up chart sensor data from the class sensor data
         func createSensorChartData() -> (LineChartData) {
             var lnChartData = [[ChartDataEntry]]() //array of points that will be displayed on graph
             var line: [IChartDataSet] = []
@@ -58,27 +62,19 @@ class ViewController: UIViewController {
         }
     }
     
-    //Trigger button to plot data
-    var numbers = SensorData(numSensors: 2)
-    @IBAction func didTapButton(_ sender: UIButton) {
-        let output = clientRequestData()
-        //sampleTestData()
-        if (output.count != 0) {
-            numbers.getSensorData(sensorValues: output)
-        }
-        updateGraph(numbers: numbers)
-    }
-    
+    // replace with clientRequestData to test chart input values
+    // delete this function when txtBox from the storyboard is removed!!!
+    var testnumbers = SensorData(numSensors: 2)
     func sampleTestData() {
         let input = Double(txtBox.text!)
-        numbers.data[0].append(input!)
-        if (numbers.data[0].count > 15) {
-            numbers.data[0].removeFirst()
+        testnumbers.data[0].append(input!)
+        if (testnumbers.data[0].count > 15) {
+            testnumbers.data[0].removeFirst()
         }
         let input2 = Double(txtBox2.text!)
-        numbers.data[1].append(input2!)
-        if (numbers.data[1].count > 15) {
-            numbers.data[1].removeFirst()
+        testnumbers.data[1].append(input2!)
+        if (testnumbers.data[1].count > 15) {
+            testnumbers.data[1].removeFirst()
         }
     }
     
@@ -117,7 +113,19 @@ class ViewController: UIViewController {
         return []
     }
     
-    func updateGraph(numbers: SensorData){
+    //Trigger button to plot data
+    var numbers = SensorData(numSensors: 3)
+    var buttonflag = false // flag is false if button has not been pressed once
+    @IBAction func didTapButton(_ sender: UIButton) {
+        let output = clientRequestData()
+        // if output array is empty, failed to setup TCPServer properly
+        if (output.count != 0) {
+            updateGraph(sensorDataSet: output)
+        }
+    }
+    
+    func updateGraph(sensorDataSet: [Double]){
+        numbers.getSensorData(sensorValues: sensorDataSet)
         let data = numbers.createSensorChartData()
         lnChart.data = data //adds the chart data to chart and graph updates
         lnChart.chartDescription?.text = "line graph"
