@@ -12,9 +12,8 @@ import Charts
 
 class ViewController: UIViewController {
     @IBOutlet weak var dataOutput: UILabel!
-    @IBOutlet weak var txtBox: UITextField!
     @IBOutlet weak var lnChart: LineChartView!
-    @IBOutlet weak var txtBox2: UITextField!
+   
     
     class SensorData {
         var numSensors : Int
@@ -32,7 +31,7 @@ class ViewController: UIViewController {
         func getSensorData(sensorValues: [Double]) {
             for i in 0..<self.numSensors {
                 self.data[i].append(sensorValues[i])
-                if (self.data[i].count > 15) {
+                if (self.data[i].count > 100) {
                     self.data[i].removeFirst()
                 }
             }
@@ -63,13 +62,13 @@ class ViewController: UIViewController {
     @IBAction func didTapButton(_ sender: UIButton) {
         let output = clientRequestData()
         //sampleTestData()
-        if (output.count != 0) {
+        if (output.count == numbers.numSensors) {
             numbers.getSensorData(sensorValues: output)
+            updateGraph(numbers: numbers)
         }
-        updateGraph(numbers: numbers)
     }
     
-    func sampleTestData() {
+   /* func sampleTestData() {
         let input = Double(txtBox.text!)
         numbers.data[0].append(input!)
         if (numbers.data[0].count > 15) {
@@ -81,7 +80,7 @@ class ViewController: UIViewController {
             numbers.data[1].removeFirst()
         }
     }
-    
+    */
     func clientRequestData() -> ([Double]) {
         var output = ""
         let client = TCPClient(address: "127.0.0.1", port: 12000)

@@ -199,19 +199,19 @@ SWIFT_CLASS("_TtC7M_Brace11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITextField;
+@class UILabel;
 @class LineChartView;
+@class UIButton;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC7M_Brace14ViewController")
 @interface ViewController : UIViewController
-@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified txtBox;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified dataOutput;
 @property (nonatomic, weak) IBOutlet LineChartView * _Null_unspecified lnChart;
-@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified txtBox2;
+- (IBAction)didTapButton:(UIButton * _Nonnull)sender;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
-- (IBAction)graphBtn:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
