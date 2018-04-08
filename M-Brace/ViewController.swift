@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var lnChart: LineChartView!
     @IBOutlet weak var txtBox2: UITextField!
     
+    
     class SensorData {
         var numSensors : Int
         var data = [[Double]]() //store all numbers/imported set of numbers here
@@ -62,6 +63,57 @@ class ViewController: UIViewController {
         }
     }
     
+    class Client {
+        var client : TCPClient = TCPClient(address: "127.0.0.1", port: 12000)
+        var statusOK : Bool
+        var statusmsg : String
+        
+        init() {
+            self.statusOK = false
+            self.statusmsg = ""
+        }
+
+        func clientSetup() {
+            //self.client = TCPClient(address: "127.0.0.1", port: 12000)
+            switch self.client.connect(timeout: 10){
+            case .success:
+                self.statusmsg = "Connected."
+                self.statusOK = true
+                print(self.statusmsg)
+                break
+            case .failure(_):
+                self.statusmsg = "Error: failed to connect."
+                self.statusOK = false
+                print(self.statusmsg)
+                self.client.close()
+            }
+        }
+        
+        func clientRequestData() -> ([Double]) {
+            switch self.client.send(string: "hello world\n"){
+            case .success:
+                // timeout is necessary
+                guard let data = self.client.read(1024*10, timeout: 2) else {
+                    self.statusmsg = "Error: Failed to read data"
+                    print(self.statusmsg)
+                    self.statusOK = false
+                    return []
+                }
+                if let response = String(bytes: data, encoding: .utf8){
+                    self.statusmsg = response
+                    print(self.statusmsg)
+                    return response.components(separatedBy: " ").flatMap { Double($0) }
+                }
+            case .failure(_):
+                self.statusmsg = "Error: Failed to obtain response."
+                self.statusOK = false
+                print(self.statusmsg)
+                return []
+            }
+            return []
+        }
+    }
+    
     // replace with clientRequestData to test chart input values
     // delete this function when txtBox from the storyboard is removed!!!
     var testnumbers = SensorData(numSensors: 2)
@@ -78,49 +130,18 @@ class ViewController: UIViewController {
         }
     }
     
-    func clientRequestData() -> ([Double]) {
-        var output = ""
-        let client = TCPClient(address: "127.0.0.1", port: 12000)
-        switch client.connect(timeout: 10){
-        case .success:
-            switch client.send(string: "hello world\n"){
-            case .success:
-                // timeout is necessary
-                guard let data = client.read(1024*10, timeout: 2) else {
-                    output = "Error: Failed to read data"
-                    dataOutput.text = output
-                    print(output)
-                    return []
-                }
-                if let response = String(bytes: data, encoding: .utf8){
-                    output = response
-                    dataOutput.text = output
-                    print(output)
-                    return response.components(separatedBy: " ").flatMap { Double($0) }
-                }
-            case .failure(_):
-                output = "Error: failed to obtain response."
-                dataOutput.text = output
-                print(output)
-                break
-            }
-        case .failure(_):
-            output = "Error: failed to connect."
-            dataOutput.text = output
-            print(output)
-        }
-        client.close()
-        return []
-    }
-    
     //Trigger button to plot data
+    let request = Client()
     var numbers = SensorData(numSensors: 3)
-    var buttonflag = false // flag is false if button has not been pressed once
     @IBAction func didTapButton(_ sender: UIButton) {
-        let output = clientRequestData()
-        // if output array is empty, failed to setup TCPServer properly
-        if (output.count != 0) {
-            updateGraph(sensorDataSet: output)
+        request.clientSetup()
+        if (request.statusOK == true) {
+            let output = request.clientRequestData()
+            if (output.count != 0) {
+                updateGraph(sensorDataSet: output)
+            }
+        } else {
+            dataOutput.text = request.statusmsg
         }
     }
     
@@ -128,6 +149,9 @@ class ViewController: UIViewController {
         numbers.getSensorData(sensorValues: sensorDataSet)
         let data = numbers.createSensorChartData()
         lnChart.data = data //adds the chart data to chart and graph updates
+        
+        //lnChart.notifyDataSetChanged() // let the chart know it's data changed
+
         lnChart.chartDescription?.text = "line graph"
     }
     
