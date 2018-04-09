@@ -1024,4 +1024,4 @@ depends-external:
 - "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/DerivedData/M-Brace/Build/Products/Debug-iphonesimulator/SwiftSocket.framework/Headers/SwiftSocket-Swift.h"
 - "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/DerivedData/M-Brace/Build/Products/Debug-iphonesimulator/Charts.framework/Modules/module.modulemap"
 - "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/DerivedData/M-Brace/Build/Products/Debug-iphonesimulator/SwiftSocket.framework/Modules/module.modulemap"
-interface-hash: "593a8ead389e4950d7ccc5942e367518"
+interface-hash: "6c418a56bd3afe3eaf6df1eab1bb587d"

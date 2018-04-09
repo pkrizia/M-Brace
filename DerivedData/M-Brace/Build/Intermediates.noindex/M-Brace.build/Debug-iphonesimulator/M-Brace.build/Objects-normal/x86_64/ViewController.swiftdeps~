@@ -12,8 +12,6 @@ provides-dynamic-lookup:
 - "didReceiveMemoryWarning"
 - "didTapButton"
 - "lnChart"
-- "txtBox"
-- "txtBox2"
 - "viewDidLoad"
 depends-top-level:
 - !private "*"
@@ -36,7 +34,6 @@ depends-top-level:
 - "UIButton"
 - "UIColor"
 - "UILabel"
-- "UITextField"
 - "UIViewController"
 - !private "UnicodeScalarType"
 - "ViewController"
@@ -101,8 +98,6 @@ depends-member:
 - !private ["s7CVarArgP", "removeFirst"]
 - !private ["s7CVarArgP", "subscript"]
 - !private ["s7CVarArgP", "text"]
-- !private ["s7CVarArgP", "txtBox"]
-- !private ["s7CVarArgP", "txtBox2"]
 - !private ["s7CVarArgP", "updateGraph"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - ["s7CVarArgP", ""]
@@ -153,8 +148,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "setColor"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "text"]
-- !private ["s28CustomDebugStringConvertibleP", "txtBox"]
-- !private ["s28CustomDebugStringConvertibleP", "txtBox2"]
 - !private ["s28CustomDebugStringConvertibleP", "updateGraph"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - ["s28CustomDebugStringConvertibleP", ""]
@@ -201,8 +194,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "setColor"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "text"]
-- !private ["s23CustomStringConvertibleP", "txtBox"]
-- !private ["s23CustomStringConvertibleP", "txtBox2"]
 - !private ["s23CustomStringConvertibleP", "updateGraph"]
 - !private ["s23CustomStringConvertibleP", "utf8"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
@@ -251,8 +242,6 @@ depends-member:
 - !private ["s9EquatableP", "print"]
 - ["s9EquatableP", "red"]
 - !private ["s9EquatableP", "text"]
-- !private ["s9EquatableP", "txtBox"]
-- !private ["s9EquatableP", "txtBox2"]
 - !private ["s9EquatableP", "updateGraph"]
 - !private ["s9EquatableP", "utf8"]
 - !private ["s9EquatableP", "viewDidLoad"]
@@ -299,8 +288,6 @@ depends-member:
 - !private ["s8HashableP", "print"]
 - ["s8HashableP", "red"]
 - !private ["s8HashableP", "text"]
-- !private ["s8HashableP", "txtBox"]
-- !private ["s8HashableP", "txtBox2"]
 - !private ["s8HashableP", "updateGraph"]
 - !private ["s8HashableP", "utf8"]
 - !private ["s8HashableP", "viewDidLoad"]
@@ -353,8 +340,6 @@ depends-member:
 - !private ["So8NSCodingP", "print"]
 - ["So8NSCodingP", "red"]
 - !private ["So8NSCodingP", "text"]
-- !private ["So8NSCodingP", "txtBox"]
-- !private ["So8NSCodingP", "txtBox2"]
 - !private ["So8NSCodingP", "updateGraph"]
 - !private ["So8NSCodingP", "viewDidLoad"]
 - ["So8NSCodingP", ""]
@@ -380,8 +365,6 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "lnChart"]
 - !private ["So26NSExtensionRequestHandlingP", "numbers"]
 - !private ["So26NSExtensionRequestHandlingP", "print"]
-- !private ["So26NSExtensionRequestHandlingP", "txtBox"]
-- !private ["So26NSExtensionRequestHandlingP", "txtBox2"]
 - !private ["So26NSExtensionRequestHandlingP", "updateGraph"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", ""]
@@ -416,7 +399,6 @@ depends-member:
 - ["So8NSObjectC", "UIButton"]
 - ["So8NSObjectC", "UIColor"]
 - ["So8NSObjectC", "UILabel"]
-- ["So8NSObjectC", "UITextField"]
 - ["So8NSObjectC", "blue"]
 - ["So8NSObjectC", "brown"]
 - !private ["So8NSObjectC", "chartDescription"]
@@ -434,10 +416,7 @@ depends-member:
 - ["So8NSObjectC", "orange"]
 - !private ["So8NSObjectC", "print"]
 - ["So8NSObjectC", "red"]
-- ["So8NSObjectC", "sampleTestData"]
 - !private ["So8NSObjectC", "text"]
-- ["So8NSObjectC", "txtBox"]
-- ["So8NSObjectC", "txtBox2"]
 - ["So8NSObjectC", "updateGraph"]
 - ["So8NSObjectC", "viewDidLoad"]
 - !private ["So16NSObjectProtocolP", "ChartDataEntry"]
@@ -464,8 +443,6 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "print"]
 - ["So16NSObjectProtocolP", "red"]
 - !private ["So16NSObjectProtocolP", "text"]
-- !private ["So16NSObjectProtocolP", "txtBox"]
-- !private ["So16NSObjectProtocolP", "txtBox2"]
 - !private ["So16NSObjectProtocolP", "updateGraph"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
 - ["So16NSObjectProtocolP", ""]
@@ -567,8 +544,6 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "numbers"]
 - !private ["So21UIAppearanceContainerP", "print"]
 - !private ["So21UIAppearanceContainerP", "text"]
-- !private ["So21UIAppearanceContainerP", "txtBox"]
-- !private ["So21UIAppearanceContainerP", "txtBox2"]
 - !private ["So21UIAppearanceContainerP", "updateGraph"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So21UIAppearanceContainerP", ""]
@@ -592,13 +567,10 @@ depends-member:
 - !private ["So18UIContentContainerP", "lnChart"]
 - !private ["So18UIContentContainerP", "numbers"]
 - !private ["So18UIContentContainerP", "print"]
-- !private ["So18UIContentContainerP", "txtBox"]
-- !private ["So18UIContentContainerP", "txtBox2"]
 - !private ["So18UIContentContainerP", "updateGraph"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", ""]
 - !private ["So30UIContentSizeCategoryAdjustingP", "text"]
-- !private ["So9UIControlC", "text"]
 - !private ["So17UICoordinateSpaceP", "chartDescription"]
 - !private ["So17UICoordinateSpaceP", "data"]
 - !private ["So17UICoordinateSpaceP", "text"]
@@ -622,8 +594,6 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "numbers"]
 - !private ["So18UIFocusEnvironmentP", "print"]
 - !private ["So18UIFocusEnvironmentP", "text"]
-- !private ["So18UIFocusEnvironmentP", "txtBox"]
-- !private ["So18UIFocusEnvironmentP", "txtBox2"]
 - !private ["So18UIFocusEnvironmentP", "updateGraph"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - ["So18UIFocusEnvironmentP", ""]
@@ -632,7 +602,6 @@ depends-member:
 - !private ["So11UIFocusItemP", "text"]
 - !private ["So27UIGestureRecognizerDelegateP", "chartDescription"]
 - !private ["So27UIGestureRecognizerDelegateP", "data"]
-- !private ["So10UIKeyInputP", "text"]
 - !private ["So7UILabelC", "text"]
 - !private ["So30UIPasteConfigurationSupportingP", "ChartDataEntry"]
 - ["So30UIPasteConfigurationSupportingP", "Double"]
@@ -651,8 +620,6 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "numbers"]
 - !private ["So30UIPasteConfigurationSupportingP", "print"]
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
-- !private ["So30UIPasteConfigurationSupportingP", "txtBox"]
-- !private ["So30UIPasteConfigurationSupportingP", "txtBox2"]
 - !private ["So30UIPasteConfigurationSupportingP", "updateGraph"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", ""]
@@ -669,7 +636,6 @@ depends-member:
 - ["So11UIResponderC", "UIButton"]
 - ["So11UIResponderC", "UIColor"]
 - ["So11UIResponderC", "UILabel"]
-- ["So11UIResponderC", "UITextField"]
 - !private ["So11UIResponderC", "chartDescription"]
 - ["So11UIResponderC", "clientRequestData"]
 - !private ["So11UIResponderC", "data"]
@@ -680,10 +646,7 @@ depends-member:
 - ["So11UIResponderC", "lnChart"]
 - ["So11UIResponderC", "numbers"]
 - !private ["So11UIResponderC", "print"]
-- ["So11UIResponderC", "sampleTestData"]
 - !private ["So11UIResponderC", "text"]
-- ["So11UIResponderC", "txtBox"]
-- ["So11UIResponderC", "txtBox2"]
 - ["So11UIResponderC", "updateGraph"]
 - ["So11UIResponderC", "viewDidLoad"]
 - !private ["So30UIResponderStandardEditActionsP", "ChartDataEntry"]
@@ -703,8 +666,6 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "numbers"]
 - !private ["So30UIResponderStandardEditActionsP", "print"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
-- !private ["So30UIResponderStandardEditActionsP", "txtBox"]
-- !private ["So30UIResponderStandardEditActionsP", "txtBox2"]
 - !private ["So30UIResponderStandardEditActionsP", "updateGraph"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", ""]
@@ -722,17 +683,9 @@ depends-member:
 - !private ["So16UIStateRestoringP", "lnChart"]
 - !private ["So16UIStateRestoringP", "numbers"]
 - !private ["So16UIStateRestoringP", "print"]
-- !private ["So16UIStateRestoringP", "txtBox"]
-- !private ["So16UIStateRestoringP", "txtBox2"]
 - !private ["So16UIStateRestoringP", "updateGraph"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So16UIStateRestoringP", ""]
-- !private ["So15UITextDraggableP", "text"]
-- !private ["So15UITextDroppableP", "text"]
-- !private ["So11UITextFieldC", "text"]
-- !private ["So11UITextInputP", "text"]
-- !private ["So17UITextInputTraitsP", "text"]
-- !private ["So34UITextPasteConfigurationSupportingP", "text"]
 - !private ["So18UITraitEnvironmentP", "ChartDataEntry"]
 - ["So18UITraitEnvironmentP", "Double"]
 - !private ["So18UITraitEnvironmentP", "LineChartData"]
@@ -750,8 +703,6 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "numbers"]
 - !private ["So18UITraitEnvironmentP", "print"]
 - !private ["So18UITraitEnvironmentP", "text"]
-- !private ["So18UITraitEnvironmentP", "txtBox"]
-- !private ["So18UITraitEnvironmentP", "txtBox2"]
 - !private ["So18UITraitEnvironmentP", "updateGraph"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", ""]
@@ -771,7 +722,6 @@ depends-member:
 - ["So16UIViewControllerC", "UIButton"]
 - ["So16UIViewControllerC", "UIColor"]
 - ["So16UIViewControllerC", "UILabel"]
-- ["So16UIViewControllerC", "UITextField"]
 - ["So16UIViewControllerC", "clientRequestData"]
 - ["So16UIViewControllerC", "dataOutput"]
 - ["So16UIViewControllerC", "didReceiveMemoryWarning"]
@@ -780,9 +730,6 @@ depends-member:
 - ["So16UIViewControllerC", "lnChart"]
 - ["So16UIViewControllerC", "numbers"]
 - !private ["So16UIViewControllerC", "print"]
-- ["So16UIViewControllerC", "sampleTestData"]
-- ["So16UIViewControllerC", "txtBox"]
-- ["So16UIViewControllerC", "txtBox2"]
 - ["So16UIViewControllerC", "updateGraph"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - ["So16UIViewControllerC", ""]
@@ -799,7 +746,6 @@ depends-member:
 - ["7M_Brace14ViewControllerC", "UIButton"]
 - ["7M_Brace14ViewControllerC", "UIColor"]
 - ["7M_Brace14ViewControllerC", "UILabel"]
-- ["7M_Brace14ViewControllerC", "UITextField"]
 - ["7M_Brace14ViewControllerC", "clientRequestData"]
 - ["7M_Brace14ViewControllerC", "dataOutput"]
 - ["7M_Brace14ViewControllerC", "deinit"]
@@ -809,9 +755,6 @@ depends-member:
 - ["7M_Brace14ViewControllerC", "lnChart"]
 - ["7M_Brace14ViewControllerC", "numbers"]
 - !private ["7M_Brace14ViewControllerC", "print"]
-- ["7M_Brace14ViewControllerC", "sampleTestData"]
-- ["7M_Brace14ViewControllerC", "txtBox"]
-- ["7M_Brace14ViewControllerC", "txtBox2"]
 - ["7M_Brace14ViewControllerC", "updateGraph"]
 - ["7M_Brace14ViewControllerC", "viewDidLoad"]
 - !private ["s14_ArrayProtocolP", "append"]
@@ -902,8 +845,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "red"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "txtBox"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "txtBox2"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "updateGraph"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
@@ -1021,24 +962,16 @@ depends-nominal:
 - "So7UIColorC"
 - "So18UIContentContainerP"
 - !private "So30UIContentSizeCategoryAdjustingP"
-- !private "So9UIControlC"
 - !private "So17UICoordinateSpaceP"
 - !private "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
 - !private "So11UIFocusItemP"
 - !private "So27UIGestureRecognizerDelegateP"
-- !private "So10UIKeyInputP"
 - !private "So7UILabelC"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - "So16UIStateRestoringP"
-- !private "So15UITextDraggableP"
-- !private "So15UITextDroppableP"
-- !private "So11UITextFieldC"
-- !private "So11UITextInputP"
-- !private "So17UITextInputTraitsP"
-- !private "So34UITextPasteConfigurationSupportingP"
 - "So18UITraitEnvironmentP"
 - !private "So6UIViewC"
 - "So16UIViewControllerC"
@@ -1091,4 +1024,4 @@ depends-external:
 - "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/DerivedData/M-Brace/Build/Products/Debug-iphonesimulator/SwiftSocket.framework/Headers/SwiftSocket-Swift.h"
 - "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/DerivedData/M-Brace/Build/Products/Debug-iphonesimulator/Charts.framework/Modules/module.modulemap"
 - "/Users/MichelleH/Desktop/CAPSTONE/M-Brace/DerivedData/M-Brace/Build/Products/Debug-iphonesimulator/SwiftSocket.framework/Modules/module.modulemap"
-interface-hash: "863dd7b47b7de28b3bd85638d7e9be17"
+interface-hash: "6c418a56bd3afe3eaf6df1eab1bb587d"

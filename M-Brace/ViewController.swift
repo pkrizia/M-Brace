@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         func getSensorData(sensorValues: [Double]) {
             for i in 0..<self.numSensors {
                 self.data[i].append(sensorValues[i])
-                if (self.data[i].count > 100) {
+                if (self.data[i].count > 15) {
                     self.data[i].removeFirst()
                 }
             }
@@ -58,7 +58,7 @@ class ViewController: UIViewController {
     }
     
     //Trigger button to plot data
-    var numbers = SensorData(numSensors: 2)
+    var numbers = SensorData(numSensors: 1)
     @IBAction func didTapButton(_ sender: UIButton) {
         let output = clientRequestData()
         //sampleTestData()
